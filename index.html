@@ -1,0 +1,32 @@
+---
+layout: layout
+title: "Eric Farkas"
+---
+
+<h2>Blog Posts</h2>
+{% for post in site.posts %}
+<div class="row-fluid">
+  <div class="span4"><p><a href="{{ post.url }}">{{ post.title }}</a></p></div>
+	<div class="span8" align="right"><p>{{ post.date | date: "%B %e, %Y" }}</p></div>
+</div> 
+{% endfor %}
+<br/>
+<h2>Projects</h2>
+<div class="row-fluid"><div class="span8"><p><a href="https://talentsoup.com">TalentSoup</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://sensusdivinitatis.com/">Sensus Divinitatis Publishing</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://news.sensusdivinitatis.com/">SD News</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://perplexedlabs.com">Perplexed Labs, Inc.</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://normativepress.com">Normative Press</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="https://github.com/speric/kindle-highlights">kindle-highlights</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://rivendellcraftbrewery.com/">Rivendell Craft Brewery</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="https://github.com/speric">GitHub</a></p></div></div></div> 
+<br/>
+<h2>Social</h2>
+<div class="row-fluid"><div class="span8"><p><a href="http://twitter.com/ericfarkas">Twitter</a></p></div></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://www.last.fm/user/ericfarkas">last.fm</a></p></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://www.flickr.com/photos/ericfarkas">Flickr</a></p></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://www.linkedin.com/in/efarkas">LinkedIn</a></p></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://www.goodreads.com/profile/speric">Goodreads</a></p></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://www.delicious.com/ericfarkas">del.icio.us</a></p></div>
+<div class="row-fluid"><div class="span8"><p><a href="http://www.amazon.com/gp/registry/wishlist/2VQV4O1JVID3M/">Amazon Wishlist</a></p></div></div>
+ 

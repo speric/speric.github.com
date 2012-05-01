@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>{{ page.title }}</title>
+	  <meta name="author" content="Eric Farkas" />
+	  <meta name="description" content="Writings by Eric Farkas. Subject matter will vary." />
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" media="screen, projection" />
+	  <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="screen, projection" />
+	  <link rel="stylesheet" href="/assets/css/pygments.css" type="text/css" />
+	  <link href='http://fonts.googleapis.com/css?family=Brawler' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div class="container" style="width:600px;">
+			<div style="margin-top:20px;">
+				<header class="jumbotron subhead">
+				  <h1><a href="/">Eric Farkas</a></h1>
+				  <p class="lead">I am the lead developer at <a href="https://talentsoup.com">TalentSoup</a>, the founder of <a href="http://sensusdivinitatis.com">Sensus Divinitatis Publishing</a>, and an elder at <a href="http://trinitychurchlongisland.com">Trinity Church</a>, among <a href="/about.html">other things</a>.</p>
+				</header>
+			</div>
+			
+			<div class="content">
+		  	{{ content }}
+			</div>
+			<div class="footer" style="margin:35px 0px;" align="center">
+				&copy; 2012 <a href="/about.html">Eric Farkas</a>
+			</div>
+		 	
+			<script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-1120529-16']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+			</script>
+		</div>
+	</body>
+</html>
