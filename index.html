@@ -6,8 +6,8 @@ title: "Eric Farkas"
 <h2>Blog Posts</h2>
 {% for post in site.posts %}
 <div class="row-fluid">
-  <div class="span4"><p><a href="{{ post.url }}">{{ post.title }}</a></p></div>
-  <div class="span8" align="right"><p>{{ post.date | date: "%B %e, %Y" }}</p></div>
+  <div class="span8"><p><a href="{{ post.url }}">{{ post.title }}</a></p></div>
+  <div class="span4" align="right"><p>{{ post.date | date: "%B %e, %Y" }}</p></div>
 </div> 
 {% endfor %}
 
