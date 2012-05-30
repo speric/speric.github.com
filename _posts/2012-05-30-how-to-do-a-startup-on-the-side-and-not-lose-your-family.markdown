@@ -25,7 +25,7 @@ title: How To Do A Startup On The Side And Not Lose Your Family
 <h3>Priorities: How Do They Work?</h3>
 <p>Spousal/SO support is the first step.  The second step is just as important, and closely related: establishing priorities.  Every post I've ever read about doing startups with a family talks about establishing priorities, but the actual process of doing so is taken for granted.  I don't think it should be.  Again, this is n=1 for me, but I've learned to go about making priorities by thinking about my life in this following manner:</p>
 
-<code>inner life -> relationships -> provision -> employment -> startup -> enjoyment</code>
+<code>inner life -> relationships -> provision -> employment -> obligations -> startup -> enjoyment</code>
 
 <h3>Inner Life</h3>
 <p>The book of Proverbs says "Keep your heart with all vigilance, for from it flow the springs of life" (<a href="http://www.biblegateway.com/passage/?search=Proverbs+4%3A23&version=ESV">4:23</a>).  Everything I do in life is affected by the state of my heart.  Am I depressed?  Happy?  Anxious?  Angry?  All of these heart conditions affect the way I interface with my wife, kids, friends, co-workers; they affect the way I do my work and my outlook on life in general.  It's a virtuous/vicious cycle: the happier (or more depressed) I am, the better (or worse) I work and live, which makes me happier (or more depressed).  Therefore my first priority is to "keep my heart".  I do this through prayer, meditation, and Scripture reading, and by regularly being part of worship.</p>
@@ -37,6 +37,9 @@ title: How To Do A Startup On The Side And Not Lose Your Family
 
 <h3>Provision & Employment</h3>
 <p>These two are so closely related, they warrant being discussed together. As a man, with a family depending on me, I have to be sure I am providing for them, materially.  This means food on the table, clothes on their backs, heat in the winter, etc.  The primary means of doing this is via a regular job, which I have.  Being that my day job provides most of the money my family depends on, I need to make sure my startup pursuits do not affect my day job.  When I am in the office, I am working hard.  That means not working on startup work on my boss' dime.  It also means being mentally present at work as well. </p>
+
+<h3>Obligations</h3>
+<p>Responsibilities that I have that fall outside of the employment/provision spectrum would be something like be an elder at Trinity.  Right now, being an elder is the only thing I do that falls in this category, and most of my elder work (besides a meeting once a month) can take place at home through email or on the phone.  But this work is something my family and I highly value, and are committed to.</p>
 
 <h3>Startup</h3>
 <p>Turns out that the thing which occupies my mind (and my dreams) most of the time is, in reality, further down on the priority chain than you'd have thought.  Not much really to say here.  If you've read this far, you know what doing a startup is like.</p>
