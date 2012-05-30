@@ -9,13 +9,13 @@ title: How To Do A Startup On The Side And Not Lose Your Family
 
 <p>As of this writing, I am 29 years old.  I am the married father of three great kids.  I have a mortgage.  In addition to all of that, and my full-time job as a draftsman, and TalentSoup on nights and weekends, I have the following obligations and interests:
 <ul>
-<li>Elder at <a href="http://trinitychurchlongisland.com">Trinity Church</a>, where I also help teach Sunday School</li>
-<li>I enjoy <a href="http://rivendellcraftbrewery.com">homebrewing</a></li>
-<li>I try to read as much as time allows on wide range of subjects</li>
-<li>Watching Chelsea FC (an emotionally traumatic experience lately)</li>
-<li>Work out regularly (<a href="http://www.flexcart.com/members/elitefts/default.asp?pid=2976">5/3/1</a> or <a href="http://gymjones.com">Gym Jones</a>-style)</li>
+<li><p>Elder at <a href="http://trinitychurchlongisland.com">Trinity Church</a>, where I also help teach Sunday School</p></li>
+<li><p>I enjoy <a href="http://rivendellcraftbrewery.com">homebrewing</a></p></li>
+<li><p>I try to read as much as time allows on wide range of subjects</p></li>
+<li><p>Watching Chelsea FC (an emotionally traumatic experience lately)</p></li>
+<li><p>Work out regularly (<a href="http://www.flexcart.com/members/elitefts/default.asp?pid=2976">5/3/1</a> or <a href="http://gymjones.com">Gym Jones</a>-style)</p></li>
 </ul>
-Not to mention generally hanging out and enjoying "the good life".  I also have very strong convictions about not doing or thinking about work on Sundays.  So if a day is 24 hours, and I need to sleep at least 6-8 of them, and I only really have 6 days of the week in which to do all of the aforementioned "stuff", how do I fulfill all my obligations?</p>
+<p>Not to mention generally hanging out and enjoying "the good life".  I also have very strong convictions about not doing or thinking about work on Sundays.  So if a day is 24 hours, and I need to sleep at least 6-8 of them, and I only really have 6 days of the week in which to do all of the aforementioned "stuff", how do I fulfill all my obligations?</p>
 
 <p>What follows is my own <a href="http://epistemocrat.blogspot.com/">n=1</a> experience.  Every person, family, and life situation is different. Here's what's worked for me and helped me bootstrap a debt free, profitable company while having a day job, a family, and a life outside of programming.</p>
 
@@ -51,11 +51,11 @@ Not to mention generally hanging out and enjoying "the good life".  I also have 
 
 <h3>Practical Tips</h3>
 <ul>
-	<li>Get your spouse or SO's buy-in.  Until that happens, I'd suggest not going forward.</li>
-	<li>Take time to focus on your inner life, in whatever way makes sense to you.</li>
-	<li>When you're with your family or friends, "be there" mentally.  Chances are, that bug or feature can wait.</li>
-	<li>Beg, borrow, and steal...time.  I've started bringing my laptop to my day job, so I can work on TalentSoup during lunch.  That's 5 extra hours a week.  Sometimes I wake up early and work before my day job.  Many nights I stay up late so I can work when everyone's asleep, without taking time away from my family.</li>
-	<li>Something has to give, and it's usually your hobbies.  I've made a rule that if I do not workout in the morning before my day job, then I can't work out for the rest of the day.  This forces me to pursue my "hobby" on my time, so I don't take time away from my family or startup.</li>
-	<li>On a regular basis, leave the laptop on your desk and take your kids out for ice cream, or go for a walk around the neighborhood.  Life is short, and you don't get these years back. Be flexible.</li>
+	<li><p>Get your spouse or SO's buy-in.  Until that happens, I'd suggest not going forward.</p></li>
+	<li><p>Take time to focus on your inner life, in whatever way makes sense to you.</p></li>
+	<li><p>When you're with your family or friends, "be there" mentally.  Chances are, that bug or feature can wait.</p></li>
+	<li><p>Beg, borrow, and steal...time.  I've started bringing my laptop to my day job, so I can work on TalentSoup during lunch.  That's 5 extra hours a week.  Sometimes I wake up early and work before my day job.  Many nights I stay up late so I can work when everyone's asleep, without taking time away from my family.</p></li>
+	<li><p>Something has to give, and it's usually your hobbies.  I've made a rule that if I do not workout in the morning before my day job, then I can't work out for the rest of the day.  This forces me to pursue my "hobby" on my time, so I don't take time away from my family or startup.</p></li>
+	<li><p>On a regular basis, leave the laptop on your desk and take your kids out for ice cream, or go for a walk around the neighborhood.  Life is short, and you don't get these years back. Be flexible.</p></li>
 </ul>
 <p>I certainly do not keep these guidelines as well as I should.  But I am learning, and I'm a lot better at balancing my time now than I have been in the past.</p>
