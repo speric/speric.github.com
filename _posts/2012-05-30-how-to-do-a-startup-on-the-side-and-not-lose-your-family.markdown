@@ -61,5 +61,6 @@ title: How To Do A Startup On The Side And Not Lose Your Family
 	<li><p>Beg, borrow, and steal...time.  I've started bringing my laptop to my day job, so I can work on TalentSoup during lunch.  That's 5 extra hours a week.  Sometimes I wake up early and work before my day job.  Many nights I stay up late so I can work when everyone's asleep, without taking time away from my family.</p></li>
 	<li><p>Something has to give, and it's usually your hobbies.  I've made a rule that if I do not workout in the morning before my day job, then I can't work out for the rest of the day.  This forces me to pursue my "hobby" on my time, so I don't take time away from my family or startup.</p></li>
 	<li><p>On a regular basis, leave the laptop on your desk and take your kids out for ice cream, or go for a walk around the neighborhood.  Life is short, and you don't get these years back. Be flexible.</p></li>
+	<li><p>Turn off the iPhone.  Easier said than done, and I guarantee I am a worse offender than you.  But it needs to be done.</p></li>
 </ul>
 <p>I certainly do not keep these guidelines as well as I should.  But I am learning, and I'm a lot better at balancing my time now than I have been in the past.</p>
