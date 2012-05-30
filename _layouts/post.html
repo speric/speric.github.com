@@ -10,7 +10,13 @@ layout: layout
 	
 	<div class="row-fluid" style="margin-top:10px;">
 	  <div class="span12">
-			{{ content }}
-		</div>
+	    {{ content }}
+	  
+	    {% if page.hn %}
+      	<p>
+          You can discuss this post at <a href="{{ page.hn }}">Hacker News</a>.
+        </p>
+        {% endif %}
+	  </div>
 	</div>
 </div>
