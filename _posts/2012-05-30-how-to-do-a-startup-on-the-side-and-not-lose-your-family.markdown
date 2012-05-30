@@ -51,7 +51,7 @@ title: How To Do A Startup On The Side And Not Lose Your Family
 
 <p>I also have to turn down some legitimate provision opportunities as well because of the harm they'd do to my relationships.  A full-time job and part-time startup take up a lot of energy, and adding something like a short-term consulting project to the mix, even though it may pay well, is something I can't do.  In the last year I've turned down 3 such opportunities.</p>
 
-<p>Likewise, there are some jobs I wouldn't take because of the impact it'd have on my family life.  Things like consistently long hours are deal breaker for me.  That might disqualify me for a job at many web startups, and that's OK with me.  Marco Arment recently had a great post titled <a href="http://www.marco.org/2012/05/24/old-farts">Old Farts Know How To Code</a> that sums up my feelings on the matter.</p>
+<p>Likewise, there are some jobs I wouldn't take because of the impact it'd have on my family life.  Things like consistently long hours (in a day job) are a deal breaker for me.  That might disqualify me for a job at many web startups, and that's OK with me.  Marco Arment recently had a great post titled <a href="http://www.marco.org/2012/05/24/old-farts">Old Farts Know How To Code</a> that sums up my feelings on the matter.</p>
 
 <h3>Practical Tips</h3>
 <ul>
