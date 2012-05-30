@@ -3,7 +3,7 @@ layout: post
 title: How To Do A Startup On The Side And Not Lose Your Family
 hn: http://news.ycombinator.com/item?id=4044044
 ---
-<p>In October 2009, I joined <a href="https://talentsoup.com">TalentSoup</a>, as the technical co-founder and lead developer.  There's a really crazy story about how I wound up finding Rad Harrell and TalentSoup, but in short, I answered a call for help in <a href="https://twitter.com/#!/human3rror/status/4367475923">this tweet</a> and the rest is my history.</p>
+<p>In October 2009, I joined <a href="https://talentsoup.com">TalentSoup</a>, as the technical co-founder and lead developer.  There's a really crazy story about how I wound up finding Rad Harrell and TalentSoup, but in short, I answered a call for help in <a href="https://twitter.com/#!/human3rror/status/4367475923">this tweet</a> and the rest is my history.  Oh, and the first thing I did when I joined TalentSoup was ditch Drupal for Rails.</p>
 
 <h3>My So-Called Life</h3>
 <p>I was at the time, and still am, gainfully employed as a mechanical draftsman for a large and well respected HVAC contractor whose work is mainly in the 5 boroughs of NYC.  The story of how a guy who has been programming since the age of 12, has a BS in Comp Sci and spent the early part of his career as a developer in the financial industry ended up doing mechanical drafting is also a long story, but one for another day.</p>
