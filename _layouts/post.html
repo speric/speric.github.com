@@ -2,21 +2,24 @@
 layout: layout
 ---
 <div class="post">
-	<h2>
-		<a href="{{ page.url }}">{{ page.title }}</a>
-	</h2>
+	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
 	
 	{{ page.date | date: "%B %e, %Y" }}<br/>
 	
 	<div class="row-fluid" style="margin-top:10px;">
 	  <div class="span12">
 	    {{ content }}
-	  
+	  	<hr>
 	    {% if page.hn %}
-      	<p>
-          You can discuss this post at <a href="{{ page.hn }}">Hacker News</a>.
-        </p>
-        {% endif %}
+      <p>
+        You can discuss this post at <a href="{{ page.hn }}">Hacker News</a>.
+      </p>
+      {% endif %}
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="ericfarkas">Tweet</a>
+      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+      <a href="http://twitter.com/ericfarkas" class="twitter-follow-button" data-show-count="false">Follow @ericfarkas</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 	  </div>
 	</div>
 </div>
