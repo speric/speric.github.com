@@ -25,7 +25,7 @@ title: Full-Time/Part-Time Co-Founder Dynamics
 <h3>The Dirty Details</h3>
 <p>So now you've found a co-founder.  If both of you are going to work full-time, it's pretty easy to decide you'll split the equity somewhere around 50/50.  But what if one of you works full-time while the other works part-time?  How do you split equity? This is where things get tricky.</p>
 
-<p>Keep this in mind: your number one goal in a startup is to ship something people want.  Especially in the early stages, work has to happen at a fast and furious pace.  You are in constant shipping mode.  Whenever you're working on your project, a couple of hours wasted on anything other than shipping code is a disaster. Keeping this in mind will help in two ways when deciding equity splits:</p>
+<p>Keep this in mind: your number one goal in a startup is to ship something people want.  Especially in the early stages, work has to happen at a fast and furious pace.  You are in constant shipping mode.  Whenever you're actually sitting down, working on your startup, a couple of hours wasted on anything other than shipping code is a disaster. Keeping this in mind will help in two ways when deciding equity splits:</p>
 <ul>
     <li><p>Even though figuring this split out is very important, it's not the most important thing.</p></li>
     <li><p>When you're spending energy on anything in an early startup (including equity splits), you're asking: "How will this help me ship code?"</p></li>
