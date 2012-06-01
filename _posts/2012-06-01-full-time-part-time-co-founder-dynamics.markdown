@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Full-Time/Part-Time Co-Founder Dynamics
+hn: http://news.ycombinator.com/item?id=4055531
 ---
 <p>I received a lot of feedback, via <a href="http://news.ycombinator.com/item?id=4044044">Hacker News</a>, Twitter, and email, from my post titled <a href="http://ericfarkas.com/posts/how-to-do-a-startup-on-the-side-and-not-lose-your-family/">How To Do A Startup On The Side And Not Lose Your Family</a>.  Based on that feedback, I have a lot of ideas for future posts.  There are a lot of people out there trying to do the "startup on the side" thing while leading a full family life, and perhaps there hasn't been a lot written specifically for that group.  I do not claim to be an expert, but my experience, limited though it may be, might be helpful for those folks.  This post is about co-founder dynamics, particularly in the case of one co-founder being full-time, the other being part-time.</p>
 
