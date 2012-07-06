@@ -9,14 +9,14 @@ title: Stuff DHH Says
 <p>Over time, I have found <a href=”http://david.heinemeierhansson.com/”>DHH</a> to be a sane voice of reason in what can sometimes be an insane Rails community.  The framework he created has basically furnished me a career and lifestyle, so I have a high level of respect for him, and I think twice if I find myself disagreeing with him in a given area. Not only did he create the Rails framework, but 37signals has created some of, if not the most, successful Rails applications to date.</p>
 
 <p>In the last few weeks I’ve watched DHH’s <a href=”https://twitter.com/dhh”>Twitter feed</a>
-with great interest, as he’s been offering his thoughts on various aspects of Rails development that are relevant to me.  His approach resonates with me, as he advocates a sane, simple, common-sense approach to Rails development.  I’ve taken the time to aggregate some of his recent Tweets into paragraph form. This is helpful to me, and maybe it will be helpful to you.</p>
+with great interest, as he’s been offering his thoughts on various aspects of Rails development that are relevant to me.  His approach resonates with me, as he seems to advocate a sane, simple, common-sense approach to Rails development.  I’ve taken the time to aggregate some of his recent Tweets into paragraph form. This is helpful to me, and maybe it will be helpful to you.</p>
 
 <h3>On Testing and Testing Frameworks</h3>
 <p>Spurred by this debate on rails-core <a href=”https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/_lcjRRgyhC0”>https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/_lcjRRgyhC0</a>, I'd like to see some more real FactoryGirl code gisted.  All the tests I've seen written with FactoryGirl, or other factory approaches, have been worse than the equivalent fixture approach. I like <a href=”http://twitter.com/tenderlove”>@tenderlove</a>'s theory that people got hooked on factories before foxy fixtures with named associations and never revisited.  That's really the sad part about both rspec and FactoryGirl. Newcomers are lead astray to these tar pits instantly.  It's like most Rails books can't wait to pimp the framework ride. Hey yo, that chariot needs some spinning rims, yo! Ugh.</p>
-
+<hr>
 <p><a href=”http://twitter.com/rgreen</a>@rgreen</a>: everone is pushing Rspec. Where do we go for better instructions?<br/>
 <a href=”http://twitter.com/dhh”>@dhh</a>: See Agile Web Development with Rails and stick to test/unit as it comes out of the box.</p>
-
+<hr>
 <p><a href=”http://twitter.com/paulvolpato</a>@paulvolpato</a>: if you don't mock often, do you tend to write unit tests where the object under test talks to real collaborators?<br/>
 <a href=”http://twitter.com/dhh”>@dhh</a>: Yes. I don't believe much in the "complete isolation" idea. My unit tests are more like model tests and do hit the db.</p>
 
@@ -24,12 +24,12 @@ with great interest, as he’s been offering his thoughts on various aspects of 
 
 <h3>On Software Architects and Architecture</h3>
 <p>It's easy to forget that there are still people who proudly call themselves software architects, use UML, and clamor for repeatable process! I was only reminded by reading <a href=”http://www.javacodegeeks.com/2012/07/architects-need-pragmatic-software.html”>ttp://www.javacodegeeks.com/2012/07/architects-need-pragmatic-software.html</a>. Ugh. Here's a process for you: Software architects who don't implement a substantial amount of what they design will fuck shit up. Badly.</p>
-
+<hr>
 <p>Following up on the discussion from <a href=”http://twitter.com/rubyrogues”>@rubyrogues</a>, this is a great example of SRR pattern wankery: <a href=”http://www.naildrivin5.com/blog/2012/06/10/single-responsibility-principle-and-rails.html”>http://www.naildrivin5.com/blog/2012/06/10/single-responsibility-principle-and-rails.html</a>.  Premature extraction!  The over-architecture of injecting the mailer is particularly offensive. Reminds me of that thread where someone got canned for such code. Test is simple: Look at the original code and compare to the concoction that follows. Forget the authoritative pattern name. Is it better? This coordination work is exactly what the controller is there to perform. It's completely fine for controllers to be more than 1 line. (Just to be clear, I think moving the mailing action into the model is an abomination. Leave it in the controller. That's what it's for!) Preemptive programming is what happens when you just can't wait to apply your patterns until they're actually needed. I didn't think it was possible, but Single Responsibility Principle appears to be producing even more bullshit code than Law of Demeter. Love how these patterns are not supposed to bear critique in any of their examples. It's always about MAINTAINABILITY. You have to believe! If you can't provide a convincing before/after code for your pattern, you're selling snake oil. Fuck your faith-based programming bullshit.</p>
-
+<hr>
 <p>Another example where SRR went hog wild: <a href=”https://gist.github.com/2838490”>https://gist.github.com/2838490</a>. Every line of activity becomes a class instead of just a method. Fuck me. (The roar of the "proper OO" crowd in that thread going rah-rah-rah is hilarious, btw.) I think having the mailer call inline in the controller is a better fit until you have more real problems tugging at it.
 </p>
-
+<hr>
 <p>
 I'm a little late to the party, but unless you're actually reusing this PostComment logic in multiple places, I agree with your senior developer. Here's how I'd swing it in the regular controller:</p>
 {% highlight ruby %}
@@ -65,7 +65,7 @@ end
 <h3>On Rails Application Design</h3>
 <p><a href=”http://twitter.com/seandevineinc</a>@seandevineinc</a>: Any advice on when to use AR observers instead of AR callbacks?<br/>
 <a href=”http://twitter.com/dhh”>@dhh</a>: I basically do not use Observers any more. I find them too indirect. I use callbacks all the time, though. But a general rule would be that callbacks should only be used for model concerns, observers can trigger external services. So if saving a model should send an email, I'd use an observer if I couldn't do it in the controller. Not a callback. </p>
-
+<hr>
 <p><a href=”http://twitter.com/rdetert</a>@rdetert</a>: what about observers for sending notifications?<br/>
 <a href=”http://twitter.com/dhh”>@dhh</a>: I'm not a big fan in general. It makes the flow opaque. Just triggering from the controller is much simpler in most cases.</p>
 
