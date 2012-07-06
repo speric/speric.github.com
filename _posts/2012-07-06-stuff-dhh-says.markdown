@@ -30,7 +30,7 @@ with great interest, as he's been offering his thoughts on some of the current R
 <hr>
 <p><blockquote>Another example where SRR went hog wild: <a href="https://gist.github.com/2838490">https://gist.github.com/2838490</a>. Every line of activity becomes a class instead of just a method. Fuck me. (The roar of the "proper OO" crowd in that thread going rah-rah-rah is hilarious, btw.) I think having the mailer call inline in the controller is a better fit until you have more real problems tugging at it.</blockquote></p>
 <hr>
-<p><blockquote>I'm a little late to the party, but unless you're actually reusing this PostComment logic in multiple places, I agree with your senior developer. Here's how I'd swing it in the regular controller:<br/>
+<p><blockquote>I'm a little late to the party, but unless you're actually reusing this PostComment logic in multiple places, I agree with your senior developer. Here's how I'd swing it in the regular controller:<br/><br/>
 {% highlight ruby %}
 class PostsController
  before_filter :set_entry
