@@ -4,13 +4,13 @@ title: Stuff DHH Says
 ---
 <p>One of the things that makes being a developer interesting (or maddening, depending on your perspective) is the need to keep your skillset up-to-date.  Even if time does not allow you to play with certain technologies or frameworks, you should still be aware of their existence, and have a general idea what they do and where you might use them.</p>
 
-<p>The problem, as I see it, is that it’s difficult to separate the signal from the noise.  With so many frameworks, methodologies, data stores, etc., one can feel overwhelmed quickly. A few prominent voices start touting this or that approach, and you’re left with the question: do I jump on board?  Or do I stick with what I know and what has worked, and get left behind?  These questions can affect careers.  You have to learn to balance the desire to stay up-to-date with the temptation to drink the Kool-Aid and take your eye off the ball, which is the fact that, in the <a href=”http://www.codersatwork.com/”>words</a> of <a href=”http://www.jwz.org/”>jwz</a>, you’re not here to write code, you’re here to ship products.</p>
+<p>The problem, as I see it, is that it's difficult to separate the signal from the noise.  With so many frameworks, methodologies, data stores, etc., one can feel overwhelmed quickly. A few prominent voices start touting this or that approach, and you're left with the question: do I jump on board?  Or do I stick with what I know and what has worked, and potentially get left behind?  These questions can affect careers.  You have to learn to balance the desire to stay up-to-date with the temptation to drink the Kool-Aid and take your eye off the ball, which is the fact that, in the <a href=”http://www.codersatwork.com/”>words</a> of <a href=”http://www.jwz.org/”>jwz</a>, you're not here to write code, you're here to ship products. What approach or technology or framework will help you actually ship code?</p>
 
 <p>Over time, I have found <a href=”http://david.heinemeierhansson.com/”>DHH</a> to be a sane voice of reason in what can sometimes be an insane Rails community.  The framework he created has basically furnished me a career and lifestyle, so I have a high level of respect for him, and I think twice if I find myself disagreeing with him in a given area. Not only did he create the Rails framework, but 37signals has created some of, if not the most, successful Rails applications to date.</p>
 
-<p>In the last few weeks I’ve watched DHH’s <a href=”https://twitter.com/dhh”>Twitter feed</a>
-with great interest, as he’s been offering his thoughts on various aspects of Rails development that are relevant to me.  His approach resonates with me, as he seems to advocate a sane, simple, common-sense approach to Rails development.  I’ve taken the time to aggregate some of his recent Tweets into paragraph form. This is helpful to me, and maybe it will be helpful to you.</p>
-
+<p>In the last few weeks I've watched DHH’s <a href=”https://twitter.com/dhh”>Twitter feed</a>
+with great interest, as he's been offering his thoughts on various aspects of Rails development that are relevant to me.  His approach resonates with me, as he seems to advocate a sane, simple, common-sense approach to Rails development.  I’ve taken the time to aggregate some of his recent Tweets into paragraph form. This is helpful to me, and maybe it will be helpful to you.</p>
+<br/>
 <h3>On Testing and Testing Frameworks</h3>
 <p>Spurred by this debate on rails-core <a href=”https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/_lcjRRgyhC0”>https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/_lcjRRgyhC0</a>, I'd like to see some more real FactoryGirl code gisted.  All the tests I've seen written with FactoryGirl, or other factory approaches, have been worse than the equivalent fixture approach. I like <a href=”http://twitter.com/tenderlove”>@tenderlove</a>'s theory that people got hooked on factories before foxy fixtures with named associations and never revisited.  That's really the sad part about both rspec and FactoryGirl. Newcomers are lead astray to these tar pits instantly.  It's like most Rails books can't wait to pimp the framework ride. Hey yo, that chariot needs some spinning rims, yo! Ugh.</p>
 <hr>
@@ -21,7 +21,7 @@ with great interest, as he’s been offering his thoughts on various aspects of 
 <a href=”http://twitter.com/dhh”>@dhh</a>: Yes. I don't believe much in the "complete isolation" idea. My unit tests are more like model tests and do hit the db.</p>
 
 <p>Sources: <a href=”http://bitly.com/bundles/o_t794esdva/5”>http://bitly.com/bundles/o_t794esdva/5</a></p>
-
+<br/>
 <h3>On Software Architects and Architecture</h3>
 <p>It's easy to forget that there are still people who proudly call themselves software architects, use UML, and clamor for repeatable process! I was only reminded by reading <a href=”http://www.javacodegeeks.com/2012/07/architects-need-pragmatic-software.html”>ttp://www.javacodegeeks.com/2012/07/architects-need-pragmatic-software.html</a>. Ugh. Here's a process for you: Software architects who don't implement a substantial amount of what they design will fuck shit up. Badly.</p>
 <hr>
@@ -61,7 +61,7 @@ end
 <p><i>In response to this thread: <a href=”https://gist.github.com/2838490”>https://gist.github.com/2838490</a></i></p>
 
 <p>Sources: <a href=”http://bitly.com/bundles/o_t794esdva/6”>http://bitly.com/bundles/o_t794esdva/6</a></p>
-
+<br/>
 <h3>On Rails Application Design</h3>
 <p><a href=”http://twitter.com/seandevineinc</a>@seandevineinc</a>: Any advice on when to use AR observers instead of AR callbacks?<br/>
 <a href=”http://twitter.com/dhh”>@dhh</a>: I basically do not use Observers any more. I find them too indirect. I use callbacks all the time, though. But a general rule would be that callbacks should only be used for model concerns, observers can trigger external services. So if saving a model should send an email, I'd use an observer if I couldn't do it in the controller. Not a callback. </p>
