@@ -8,7 +8,7 @@ title: Stuff DHH Says
 
 <p>Over time, I have found <a href="http://david.heinemeierhansson.com/">DHH</a> to be a sane voice of reason in what can sometimes be an insane Rails community.  The framework he created has basically furnished me a career and lifestyle, so I have a high level of respect for him, and I think twice if I find myself disagreeing with him in a given area. Not only did he create the Rails framework, but 37signals has created some of, if not the most, successful Rails applications to date.</p>
 
-<p>In the last few weeks I've watched DHH’s <a href="https://twitter.com/dhh">Twitter feed</a>
+<p>In the last few weeks I've watched DHH's <a href="https://twitter.com/dhh">Twitter feed</a>
 with great interest, as he's been offering his thoughts on various aspects of Rails development that are relevant to me.  His approach resonates with me, as he seems to advocate a sane, simple, common-sense approach to Rails development.  I’ve taken the time to aggregate some of his recent Tweets into paragraph form. This is helpful to me, and maybe it will be helpful to you.</p>
 <br/>
 <h3>On Testing and Testing Frameworks</h3>
