@@ -21,7 +21,7 @@ end
 {% endhighlight %}
 </p>
 
-<p>So we catch every exception, and display a generic error page that lives in <code>app/views/shared/<code>. This wound up being trivial but it was a good excuse to dig into Rails 3 internals and learn about how exceptions are handled within the framework.</p>
+<p>So we catch every exception, and display a generic error page that lives in <code>app/views/shared/</code>. This wound up being trivial but it was a good excuse to dig into Rails 3 internals and learn about how exceptions are handled within the framework.</p>
 
 <h3>See Also</h3>
 <p><a href="http://m.onkey.org/rescue-from-dispatching">rescue_from dispatching</a></p>
