@@ -8,13 +8,19 @@ title: Global Exception Handling With Rails 3 and Bugsnag
 
 <p>
 {% highlight ruby %}
+# config/initializers/bugsnag.rb
+Bugsnag.configure do |config|
+  config.api_key = "API_KEY"
+  config.ignore_classes = []
+end
+
+# app/controllers/application.rb
 class ApplicationController < ActionController::Base
   rescue_from Exception, :with => :handle_public_excepton
   
   protected
 
   def handle_public_excepton(exception)
-    Bugsnag.notify(exception)
     render :template => "shared/exception"
   end
 end
