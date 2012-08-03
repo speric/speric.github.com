@@ -18,3 +18,7 @@ title: What I Learned On The Track This Morning
  <p>Second, when have dug yourself a hole and find yourself in an uncomfortable situation that is of your own making, stand your ground and live with yourself.  Sometimes it means suffering. In fact, it almost always does. But you come out on the other side with integrity.</p>
 
 <p>I did not have that integrity today.  I will have it on Monday, and every day after that. And not just on the track, or in the gym, but in all of life, with the help of God.</p>
+
+<h3>See Also</h3>
+<p><a href="http://station515.blogspot.com/2011/10/moment.html">the moment</a></p>
+<p><a href="http://www.gymjones.com/knowledge/article/23/">Will And Suffering</a></p>
