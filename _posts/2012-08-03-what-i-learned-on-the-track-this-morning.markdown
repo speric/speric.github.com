@@ -17,4 +17,4 @@ title: What I Learned On The Track This Morning
 <p>It's interesting to me how I first thought that what I learned today was that I need to pace myself and fight against my ego. In fact, I learned that you cannot expect to achieve what you did not work for.  And the answer is not always to work harder, to run yourself into the ground.  Sometimes the answer is to just starting working, period.</p>
  <p>Second, when have dug yourself a hole and find yourself in an uncomfortable situation that is of your own making, stand your ground and live with yourself.  Sometimes it means suffering. In fact, it almost always does. But you come out on the other side with integrity.</p>
 
-<p>I did not have that integrity today.  I will have it on Monday, and every day after that.</p>
+<p>I did not have that integrity today.  I will have it on Monday, and every day after that. And not just on the track, or in the gym, but in all of life, with the help of God.</p>
