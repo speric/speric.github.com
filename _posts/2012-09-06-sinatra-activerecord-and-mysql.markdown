@@ -13,7 +13,9 @@ password: db_pass
 host: localhost
 port: 9999
 </pre>
-<p>
+</p>
+
+<p>Now we tell the gem about our db settings:</p>
 
 <p>
 {% highlight ruby %}
@@ -25,9 +27,7 @@ require './models/models.rb'
 
 DB_CONFIG = YAML::load(File.open('config/database.yml'))
 
-database_url = "mysql://#{DB_CONFIG['username']}:#{DB_CONFIG['password']}@#{DB_CONFIG['host']}:#{DB_CONFIG['port']}/#{DB_CONFIG['database']}"
-
-set :database, database_url
+set :database, "mysql://#{DB_CONFIG['username']}:#{DB_CONFIG['password']}@#{DB_CONFIG['host']}:#{DB_CONFIG['port']}/#{DB_CONFIG['database']}"
 
 get '/' do
   @items = Item.all
