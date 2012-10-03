@@ -10,7 +10,7 @@ title: Dynamic Images (Or A Lightweight Gravatar)
 
 <p>This is a problem because sometimes talent change their <code>main_photo</code> based on what type of project they're being considered for (we let them know when they're added to a gallery, and what type of job it is).  For example, right now we're managing a job for a client who is going to be photographing people running.  As a result, some talent changed their <code>main_photo</code> to show them running or doing some sort of physical exercise.  This should be reflected in the galleries, obviously!</p>
 
-<p>Basically what I needed was a service like <a href="http://gravatar.com">Gravatar</a>.  One URL I could pass around between TalentSoup and Commissary that would always render the given talent's <code>main_photo</code>.  I came up with a simple solution.  I am not sure if this is the best way to accomplish this, but it works.</p>
+<p>Basically what I needed was a service like <a href="http://gravatar.com">Gravatar</a>.  One URL I could pass around between TalentSoup and Commissary that would always render the given talent's <code>main_photo</code>.  I came up with a simple solution.  I am not sure if this is the best way to accomplish this, but it works. Here's a controller action that lives on the TalentSoup side:</p>
 
 <p>
 {% highlight ruby %}
@@ -24,7 +24,7 @@ end
 {% endhighlight %}
 </p>
 
-<p>Now I can do this on the Commissary side:</p>
+<p>It takes the talent's <code>id</code> as a parameter and will always display the <code>main_photo</code>.  Now I can do this on the Commissary side:</p>
 
 <p>
 {% highlight html %}
