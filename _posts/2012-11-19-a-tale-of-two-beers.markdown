@@ -7,9 +7,9 @@ title: A Tale of Two Beers
 <h3>The Dubbel</h3>
 <p>When the dubbel was meant to be "ready" (about 3-4 weeks in the bottle), I thought it was a failure.  It had a soapy aftertaste, which I identified at the time as being caused by <a href="http://www.howtobrew.com/section4/chapter21-2.html">the beer being left in the fermenter too long</a>.  It was in the primary for one week, and secondary for 11 days.  Eighteen total days. Not a long time by any stretch, but I was a new homebrewer, and what did I know?</p>
 
-<p>The problem with screwing up a beer is that now you have 50+ bottles of beer that you really don't want to drink, and you don't want to let your friends drink either.  So I did what any embarrassed homebrewer might do: I just let it sit in my dark, cool basement for months.</p>
+<p>The problem with screwing up a beer is that now you have 50+ bottles of homebrew that you really don't want to drink, and you don't want to let your friends drink either.  So I did what any embarrassed homebrewer might do: I just let it sit in my dark, cool basement for months.</p>
 
-<p>It turns out this was the best thing I could have done for the beer.</p>
+<p>It turns out this was the best thing I could have done.</p>
 
 <p>A couple of nights ago, I had a meeting to attend, and someone had to bring the beers.  Weeks earlier, I had thrown a couple of bottles of the dubbel in with some other beers to make a six pack for a night out.  Perhaps some of my friends who didn't have much experience with craft beer wouldn't notice the off flavor, and they might enjoy it.  Turns out the beer got positive reviews from those friends.  Buttressed by that feedback, I dared to bring a six pack of my homebrew to that meeting.  Maybe the soapy off-taste had dissipated a bit, and I could start to unload my failed homebrew.</p>
 
