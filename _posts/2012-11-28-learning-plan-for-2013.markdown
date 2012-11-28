@@ -6,7 +6,7 @@ title: Learning Plan For 2013
 <ul>
  <li><p>Deepen my knowledge of the Ruby language</p></li>
  <li><p>Learn CoffeeScript</p></li>
- <li><p>Become familiar with new database technologies, especially MongoDB</p></li>
+ <li><p>Become familiar with database technologies other than MySQL, especially MongoDB</p></li>
  <li><p>Consistently write about what I am learning, whether it's simple or not</p></li>
 </ul>
 
