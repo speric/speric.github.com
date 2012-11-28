@@ -10,7 +10,7 @@ A gem manager.  Gems are packaged Ruby applications or libraries.</p>
 <p><b>What is a Symbol?</b><br/> Symbols are used to represent names and strings, and they look like this: <code>:foo</code>.</p>
 
 <p><b>What is the difference between a Symbol and String?</b><br/>
-Symbols are immutable and each instance of a symbol with the same name will have the same memory address (better for performance since each String instance gets it’s own memory address)</p>
+Symbols are immutable and each instance of a symbol with the same name will have the same memory address (better for performance since each String instance gets it's own memory address)</p>
 
 <p><b>What is the purpose of yield?</b><br/>
 Give control back to the calling block</p>
@@ -51,7 +51,7 @@ Class or module that will be "included" in or "mixed in" to another class (which
 
 <p><b>How can you call the base class method from inside of its overriden method?</b><br/> <code>super()</code></p>
 
-<p><b>What's the difference between include and extend?</b><br/> <code>include</code> brings the methods of the included class into an instance of the including class. <code>extend</code> makes them available to the class itself. You can use <code>base.extend(ClassMethods)</code> to get both class and instance methods in a subclass (<a href="http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/ http://rubyquicktips.com/post/1133877859/include-vs-extend">http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/ http://rubyquicktips.com/post/1133877859/include-vs-extend</a>).</p>
+<p><b>What's the difference between include and extend?</b><br/> <code>include</code> brings the methods of the included class into an instance of the including class. <code>extend</code> makes them available to the class itself. You can use <code>base.extend(ClassMethods)</code> to get both class and instance methods in a subclass (<a href="http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/ http://rubyquicktips.com/post/1133877859/include-vs-extend">http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/</a>, <a href="http://rubyquicktips.com/post/1133877859/include-vs-extend">http://rubyquicktips.com/post/1133877859/include-vs-extend</a>).</p>
 
 <p><b>What's the difference between include and require?</b><br/> <code>require</code> "runs the required" file, <code>include</code> adds functionality to the current module.</p>
 
@@ -73,3 +73,6 @@ Class or module that will be "included" in or "mixed in" to another class (which
 Ruby's answer to the multiple inheritance problem is not, strictly speaking, multiple inheritance at all, but rather the use of modules as "mix-ins". Mix-ins allow one class to be "mixed into" another class, thereby bringing all of it's instance methods into the new class.  You can mix-in as many modules as you need in your class.  By doing this, you are able to easily leverage the functionality of any existing mix-in in your new class.  The strength of this approach is that you avoid the potential problem of inheriting from two classes who themselves inherit from one base class, and the namespace collisions that can ensue (commonly referred to as the "diamond problem").  If you are careful and attentive to the order in which you "include" modules in your class, you will always know which version of a method will be called from a mixed-in module.  Another strength of this approach is perhaps more abstract, but in modeling your classes, mix-ins allow you think of your class as "having" certain behavior, instead of "being" a certain thing.  My class "has" Comparable functionality, but is not primarily a Comparable child class.<br/>
 
 One of the weaknesses of this approach is that it's easy for your classes to become huge in a hurry before you write any code.  Some modules, in Rails core for example, already contain hundreds of methods.  However, I think with attentive planning, this can be avoided.<br/>
+
+<h3>See Also</h3>
+<a href="https://github.com/styleguide/ruby">GitHub Ruby Style Guide</a>
