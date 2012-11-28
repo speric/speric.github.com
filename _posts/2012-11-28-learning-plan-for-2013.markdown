@@ -4,10 +4,10 @@ title: Learning Plan For 2013
 ---
 <p>I've started to think about and plan how I will improve my development skills in 2013. My goals are:</p>
 <ul>
- <li>Deepen my knowledge of the Ruby language</li>
- <li>Learn CoffeeScript</li>
- <li>Become familiar with new database technologies, especially MongoDB</li>
- <li>Consistently write about what I am learning, whether it's simple or not</li>
+ <li><p>Deepen my knowledge of the Ruby language</p></li>
+ <li><p>Learn CoffeeScript</p></li>
+ <li><p>Become familiar with new database technologies, especially MongoDB</p></li>
+ <li><p>Consistently write about what I am learning, whether it's simple or not</p></li>
 </ul>
 
 <p>I will achieve my goals in this manner:</p>
