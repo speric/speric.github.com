@@ -8,6 +8,7 @@ title: Learning Plan For 2013
  <li><p>Learn CoffeeScript</p></li>
  <li><p>Become familiar with database technologies other than MySQL, especially MongoDB</p></li>
  <li><p>Consistently write about what I am learning, whether it's simple or not</p></li>
+ <li><p>Write a Ruby driver for <a href="https://github.com/bitly/nsq">NSQ</a></p></li>
 </ul>
 
 <p>I will achieve my goals in this manner:</p>
