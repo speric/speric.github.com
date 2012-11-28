@@ -44,6 +44,9 @@ Class or module that will be "included" in or "mixed in" to another class (which
 
 <p><b>How can you define a custom Exception?</b><br/> Create a class that inherits from <code>StandardError</code>, then "raise" that exception.</p>
 
+<p><b>Why is the id of nil 4 in Ruby?</b><br/>
+<a href="http://blog.bigbinary.com/2008/06/23/why-the-id-of-nil-is-4-in-ruby.html">http://blog.bigbinary.com/2008/06/23/why-the-id-of-nil-is-4-in-ruby.html</a></p>
+
 <p><b>What is the default access modifier (public/protected/private) for a method?</b><br/> <code>public</code></p>
 
 <p><b>How can you call the base class method from inside of its overriden method?</b><br/> <code>super()</code></p>
@@ -62,7 +65,7 @@ Class or module that will be "included" in or "mixed in" to another class (which
 
 <p><b>What is a Proc?</b><br/> Anonymous method that can be passed around as a variable, variables inside remain in scope.  Lamdbas are similar but need to be explicitly declared.</p>
 
-<p><b>Talk about method_missing.</b><br/> With <code>method_missing</code> you can catch calls to methods that don't exist, and dynamically call them.  ActiveRecord uses this technique to build dynamic finders with <code>find_by</code>).</p>
+<p><b>Talk about method_missing.</b><br/> With <code>method_missing</code> you can catch calls to methods that don't exist, and dynamically call them.  ActiveRecord uses this technique to build dynamic finders with <code>find_by</code>.</p>
 
 <p><b>Talk about closures.</b><br/>A closure is basically a function/method that has the following two properties: You can pass it around like an object (to be called later), It remembers the values of all the variables that were in scope when the function was created. It is then able to access those variables when it is called even though they may no longer be in scope. <a href="http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/">http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/</a></p>
 
