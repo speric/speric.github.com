@@ -1,1 +1,69 @@
-test
+---
+layout: layout
+title: "Ruby | Eric Farkas"
+---
+<p>Notes on Ruby and Rails.</p>
+
+<p><b>What is rubygems?</b><br/>
+A gem manager.  Gems are packaged Ruby applications or libraries.</p>
+What is a Symbol? Something used to represent names and strings.
+
+What is the difference between a Symbol and String? Symbols are immutable and, each instance of a symbol with the same name will have the same memory address (better for performance since each String instance gets it’s own memory address)
+t   
+What is the purpose of yield? Give control back to the calling block
+
+How do you define class variables? Like this: @@foo
+
+How do you define instance variables? Like this @bar
+
+How do you define global variables? Like this: $foo
+
+How can you dynamically define a method body? Metaprogramming. http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/
+
+What is a Range? It’s a class that holds a range of numbers.  (1..10) is all the numbers between 1 and 10, including 1 and 10; (1...10) is all the numbers between 1 and 10, excluding 1 and 10
+
+How can you implement method overloading? Make the method accepts args* as parameter(s), use logic to delegate based on # or type of arguments.  Put args* at the end of the parameter in cases where you want to enforce a minimum amount of parameters.
+
+What is the difference between '&&' and 'and' operators? ‘&&’ is true if what you’re comparing are both non-zero, ‘and’ is true if both are true.
+
+What is the convention for using '!' at the end of a method name? Denotes that there is a potentially dangerous or unexpected side-effect to the method; usually that it changes the object you’re working on in-place
+
+What is a module? http://www.rubyist.net/~slagell/ruby/modules.html A class that can have no instances or subclasses; mechanism for namespaces
+
+What is mixin? http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_modules.html
+Class or module that will be “included” in or “mixed in” to another class (which brings with it all it’s variables and methods); a way of getting around Ruby’s lack of multiple inheritance
+
+How will you implement a singleton pattern? http://dalibornasevic.com/posts/9-ruby-singleton-pattern-again
+
+How will you implement a observer pattern? http://khelll.com/blog/ruby/observer-and-singleton-design-patterns-in-ruby/
+
+How can you define a constant? Uppercase the variable name
+
+How can you define a custom Exception? Create a class that inherits from StandardError, then “raise” that exception
+
+How can you fire a method when a module is included inside a class?
+
+What is the default access modifier (public/protected/private) for a method? Public
+
+How can you call the base class method from inside of its overriden method? super()
+
+What’s the difference between include and extend? Include brings the methods of the included class into an instance of the including class. Extend makes them available to the class itself. http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/ http://rubyquicktips.com/post/1133877859/include-vs-extend; you can use base.extend(ClassMethods) to get both class and instance methods in a subclass
+
+What’s the difference between include and require? Require “runs the required” file, include adds functionality to the current module.
+
+What is a class? Holds data, and has methods that interact with that data
+
+What is a module? Can you tell me the difference between classes and modules? Class that cannot be instantiated.
+
+There are three ways to invoke a method in ruby. Can you give me at least two? The dot operator (or period operator), the Object#send method, or method(:foo).call
+
+Can you tell me the three levels of method access control for classes and modules? What do they imply about the method?  All methods, no matter the access control, can be accessed within the class. But what about outside callers? Public methods enforce no access control — they can be called in any scope. Protected methods are only accessible to other objects of the same class. Private methods are only accessible within the context of the current object.
+
+What is a Proc? Anonymous method, can be passed around as a variable, variables inside remain in scope.  Lamdbas are similar but need to be explicitly declared
+
+Unit testing: Testing methods
+
+method_missing: dynamically catch calls to methods that don’t exist, dynamically call them (ActiveRecord.find_by)
+
+Closures http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/, A closure is basically a function/method that has the following two properties: You can pass it around like an object (to be called later), It remembers the values of all the variables that were in scope when the function was created. It is then able to access those variables when it is called even though they may no longer be in scope.
+
