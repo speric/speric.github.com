@@ -2,68 +2,71 @@
 layout: layout
 title: "Ruby | Eric Farkas"
 ---
-<p>Notes on Ruby and Rails.</p>
+<h3>Notes on Ruby and Rails.</h3>
 
 <p><b>What is rubygems?</b><br/>
 A gem manager.  Gems are packaged Ruby applications or libraries.</p>
-What is a Symbol? Something used to represent names and strings.
 
-What is the difference between a Symbol and String? Symbols are immutable and, each instance of a symbol with the same name will have the same memory address (better for performance since each String instance gets it’s own memory address)
-t   
-What is the purpose of yield? Give control back to the calling block
+<p><b>What is a Symbol?</b><br/> Symbols are used to represent names and strings, and they look like this: <code>:foo</code>.</p>
 
-How do you define class variables? Like this: @@foo
+<p><b>What is the difference between a Symbol and String?</b><br/>
+Symbols are immutable and each instance of a symbol with the same name will have the same memory address (better for performance since each String instance gets it’s own memory address)</p>
 
-How do you define instance variables? Like this @bar
+<p><b>What is the purpose of yield?</b><br/>
+Give control back to the calling block</p>
 
-How do you define global variables? Like this: $foo
+<p><b>How do you define class variables?</b><br/> Like this: <code>@@foo</code></p>.
 
-How can you dynamically define a method body? Metaprogramming. http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/
+<p><b>How do you define instance variables?</b><br/> Like this <code>@bar</code></p>.
 
-What is a Range? It’s a class that holds a range of numbers.  (1..10) is all the numbers between 1 and 10, including 1 and 10; (1...10) is all the numbers between 1 and 10, excluding 1 and 10
+<p><b>How do you define global variables?</b><br/> Like this: <code>$foo</code></p>.
 
-How can you implement method overloading? Make the method accepts args* as parameter(s), use logic to delegate based on # or type of arguments.  Put args* at the end of the parameter in cases where you want to enforce a minimum amount of parameters.
+<p><b>How can you dynamically define a method body?</b><br/> <a href="http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/">http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/</a></p>
 
-What is the difference between '&&' and 'and' operators? ‘&&’ is true if what you’re comparing are both non-zero, ‘and’ is true if both are true.
+<p><b>What is a Range?</b><br/> It’s a class that holds a range of numbers.  <code>(1..10)</code> is all the numbers between 1 and 10, including 1 and 10; <code>(1...10)</code> is all the numbers between 1 and 10, excluding 1 and 10</p>
 
-What is the convention for using '!' at the end of a method name? Denotes that there is a potentially dangerous or unexpected side-effect to the method; usually that it changes the object you’re working on in-place
+<p><b>How can you implement method overloading?</b><br/> Make the method accepts <code>args*</code> as parameter(s), use logic to delegate based on # or type of arguments.  Put <code>args*</code> at the end of the parameter in cases where you want to enforce a minimum amount of parameters.</p>
 
-What is a module? http://www.rubyist.net/~slagell/ruby/modules.html A class that can have no instances or subclasses; mechanism for namespaces
+<p><b>What is the difference between <code>&&</code> and <code>and</code> operators?</b><br/> <code>&&</code> is true if what you’re comparing are both non-zero, <code>and</code> is true if both are true.</p>
 
-What is mixin? http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_modules.html
-Class or module that will be “included” in or “mixed in” to another class (which brings with it all it’s variables and methods); a way of getting around Ruby’s lack of multiple inheritance
+<p><b>What is the convention for using <code>!</code> at the end of a method name?</b><br/> Denotes that there is a potentially dangerous or unexpected side-effect to the method; usually that it changes the object you’re working on in-place.</p>
 
-How will you implement a singleton pattern? http://dalibornasevic.com/posts/9-ruby-singleton-pattern-again
+<p><b>What is a module?</b><br/> A class that can have no instances or subclasses; mechanism for namespaces (<a href="http://www.rubyist.net/~slagell/ruby/modules.html">http://www.rubyist.net/~slagell/ruby/modules.html</a>).</p>
 
-How will you implement a observer pattern? http://khelll.com/blog/ruby/observer-and-singleton-design-patterns-in-ruby/
+<p><b>What is mixin?</b><br/> 
+Class or module that will be "included" in or "mixed in" to another class (which brings with it all it’s variables and methods); a way of getting around Ruby’s lack of multiple inheritance (<a href="http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_modules.html">http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_modules.html</a>).
 
-How can you define a constant? Uppercase the variable name
+<p><b>How will you implement a singleton pattern?</b><br/> <a href="http://dalibornasevic.com/posts/9-ruby-singleton-pattern-again">http://dalibornasevic.com/posts/9-ruby-singleton-pattern-again</a></p>
 
-How can you define a custom Exception? Create a class that inherits from StandardError, then “raise” that exception
+<p><b>How will you implement a observer pattern?</b><br/> <a href="http://khelll.com/blog/ruby/observer-and-singleton-design-patterns-in-ruby/">http://khelll.com/blog/ruby/observer-and-singleton-design-patterns-in-ruby/</a></p>
 
-How can you fire a method when a module is included inside a class?
+<p><b>How can you define a constant?</b><br/> Like this: <code>FOO = "some value"</code>.</p>
 
-What is the default access modifier (public/protected/private) for a method? Public
+<p><b>How can you define a custom Exception?</b><br/> Create a class that inherits from <code>StandardError</code>, then "raise" that exception.</p>
 
-How can you call the base class method from inside of its overriden method? super()
+<p><b>What is the default access modifier (public/protected/private) for a method?</b><br/> <code>public</code></p>
 
-What’s the difference between include and extend? Include brings the methods of the included class into an instance of the including class. Extend makes them available to the class itself. http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/ http://rubyquicktips.com/post/1133877859/include-vs-extend; you can use base.extend(ClassMethods) to get both class and instance methods in a subclass
+<p><b>How can you call the base class method from inside of its overriden method?</b><br/> <code>super()</code></p>
 
-What’s the difference between include and require? Require “runs the required” file, include adds functionality to the current module.
+<p><b>What’s the difference between include and extend?</b><br/> <code>include</code> brings the methods of the included class into an instance of the including class. <code>extend</code> makes them available to the class itself. You can use <code>base.extend(ClassMethods)</code> to get both class and instance methods in a subclass (<a href="http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/ http://rubyquicktips.com/post/1133877859/include-vs-extend">http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/ http://rubyquicktips.com/post/1133877859/include-vs-extend</a>).</p>
 
-What is a class? Holds data, and has methods that interact with that data
+<p><b>What's the difference between include and require?</b><br/> <code>require</code> "runs the required" file, <code>include</code> adds functionality to the current module.</p>
 
-What is a module? Can you tell me the difference between classes and modules? Class that cannot be instantiated.
+<p><b>What is a class?</b><br/> A class holds data, and has methods that interact with that data.</p>
 
-There are three ways to invoke a method in ruby. Can you give me at least two? The dot operator (or period operator), the Object#send method, or method(:foo).call
+<p><b>What is a module? Can you tell me the difference between classes and modules?</b><br/> A module is a class that cannot be instantiated.</p>
 
-Can you tell me the three levels of method access control for classes and modules? What do they imply about the method?  All methods, no matter the access control, can be accessed within the class. But what about outside callers? Public methods enforce no access control — they can be called in any scope. Protected methods are only accessible to other objects of the same class. Private methods are only accessible within the context of the current object.
+<p><b>There are three ways to invoke a method in ruby. Can you give me at least two?</b><br/> The dot operator, as in <code>foo.some_method</code>, the <code>Object#send</code> method, or <code>method(:foo).call</code>.</p>
 
-What is a Proc? Anonymous method, can be passed around as a variable, variables inside remain in scope.  Lamdbas are similar but need to be explicitly declared
+<p><b>Can you tell me the three levels of method access control for classes and modules? What do they imply about the method?</b><br/>  All methods, no matter the access control, can be accessed within the class. <code>public</code> methods enforce no access control — they can be called in any scope. <code>protected</code> methods are only accessible to other objects of the same class. <code>private</code> methods are only accessible within the context of the current object.</p>
 
-Unit testing: Testing methods
+<p><b>What is a Proc?</b><br/> Anonymous method that can be passed around as a variable, variables inside remain in scope.  Lamdbas are similar but need to be explicitly declared.</p>
 
-method_missing: dynamically catch calls to methods that don’t exist, dynamically call them (ActiveRecord.find_by)
+<p><b>Talk about <code>method_missing</code>.</b><br/> With <code>method_missing</code> you can catch calls to methods that don’t exist, and dynamically call them (like ActiveRecord's <code>find_by</code>).</p>
 
-Closures http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/, A closure is basically a function/method that has the following two properties: You can pass it around like an object (to be called later), It remembers the values of all the variables that were in scope when the function was created. It is then able to access those variables when it is called even though they may no longer be in scope.
+<p><b>Talk about closures</b><br/>. A closure is basically a function/method that has the following two properties: You can pass it around like an object (to be called later), It remembers the values of all the variables that were in scope when the function was created. It is then able to access those variables when it is called even though they may no longer be in scope. <a href="http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/">http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/</a></p>
 
+<p><b>Ruby has a unique approach to the multiple inheritance problem. What are the strengths and weaknesses of the Ruby solution?</b><br/>
+Ruby's answer to the multiple inheritance problem is not, strictly speaking, multiple inheritance at all, but rather the use of modules as "mix-ins". Mix-ins allow one class to be "mixed into" another class, thereby bringing all of it's instance methods into the new class.  You can mix-in as many modules as you need in your class.  By doing this, you are able to easily leverage the functionality of any existing mix-in in your new class.  The strength of this approach is that you avoid the potential problem of inheriting from two classes who themselves inherit from one base class, and the namespace collisions that can ensue (commonly referred to as the "diamond problem").  If you are careful and attentive to the order in which you "include" modules in your class, you will always know which version of a method will be called from a mixed-in module.  Another strength of this approach is perhaps more abstract, but in modeling your classes, mix-ins allow you think of your class as "having" certain behavior, instead of "being" a certain thing.  My class "has" Comparable functionality, but is not primarily a Comparable child class.<br/>
+
+One of the weaknesses of this approach is that it's easy for your classes to become huge in a hurry before you write any code.  Some modules, in Rails core for example, already contain hundreds of methods.  However, I think with attentive planning, this can be avoided.<br/>
