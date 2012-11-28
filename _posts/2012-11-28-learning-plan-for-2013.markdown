@@ -19,7 +19,7 @@ title: Learning Plan For 2013
   <li><p>Read <a href="http://pragprog.com/book/ppmetr/metaprogramming-ruby">Metaprogramming Ruby: Program Like the Ruby Pros</a> by Paolo Perrotta (296 pages)</p></li>
   <li><p>Read <a href="http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks">Seven Databases in Seven Weeks</a> by Eric Redmond and Jim R. Wilson (352 pages)</p></li>
   <li><p>Read <a href="http://www.amazon.com/MongoDB-Definitive-Guide-Kristina-Chodorow/dp/1449381561/">MongoDB: The Definitive Guide</a> by Kristina Chodorow and Michael Dirolf (216 pages)</p></li>
-  <li><p>Read and thoroughly understand the code behind one of: <a href="http://www.sinatrarb.com/">Sinatra</a>, <a href="http://mongomapper.com/">MongoMapper</a> or <a href="http://rack.github.com/">Rack</a>, then write about it.</p></li>
+  <li><p>Read and thoroughly understand the code behind one of <a href="https://github.com/macournoyer/thin">Thin</a>, <a href="http://www.sinatrarb.com/">Sinatra</a>, <a href="http://mongomapper.com/">MongoMapper</a> or <a href="http://rack.github.com/">Rack</a>, then write about it.</p></li>
   <li><p>Read <a href="http://pragprog.com/book/btlang/seven-languages-in-seven-weeks">Seven Languages In Seven Weeks</a> by Bruce A. Tate (328 pages)</p></li>
 </ul>
 
