@@ -17,7 +17,7 @@ title: In The Zone
 <h3>Libations</h3>
 <p>If I really need to clear my head after a long day so that I can context switch to TalentSoup or Creative Commissary, I'll have a beer while programming. I love craft beers and usually have a good selection on hand.  Beer doesn't help me write better code, but it does help me focus.  Consider this quote from <a href="http://en.wikipedia.org/wiki/Revolver_%28album%29">John Lennon:</a></p>
 <p><blockquote>It's like saying, "Did Dylan Thomas write Under Milk Wood on beer?" What does that have to do with it? The beer is to prevent the rest of the world from crowding in on you....they don't make you write any better. I never wrote any better stuff because I was on acid or not on acid.<br/>
-—John Lennon, The Beatles Anthology</blockquote></p>
+- John Lennon, The Beatles Anthology</blockquote></p>
 
 <p>I am not advocating the abuse of any substance, controlled or otherwise.  I am simply stating that beer, wine, or other drinks can help you "prevent the rest of the world from crowding in on you".  And who doesn't love a good 60 Minute IPA?</p>
 
