@@ -2,11 +2,11 @@
 layout: post
 title: In The Zone
 ---
-<p>Given all my obligations and the fact I need to sleep 7-8 hours a night, I average ~15 hours a week working on the <a href="https://talentsoup.com">two</a> <a href="http://getcommissary.com">apps</a> which comprise my startup-on-the-side. Fifteen hours is a little less than 2 working days at a full-time job.  Basically, I need to work around 2.5 weeks to get in the amount of time that a full-time developer would work in 1 week.</p>
+<p>Given all my obligations and the fact I need to sleep 7-8 hours a night, I average ~15 hours a week working on the <a href="https://talentsoup.com">two</a> <a href="http://getcommissary.com">apps</a> which comprise my startup-on-the-side. Fifteen hours is a little less than 2 working days at a full-time job.  I need to work around 2.5 weeks to get in the amount of time that a full-time developer would work in 1 week.</p>
 
-<p>I need to maximize my efficiency because every minute I can devote to startup work is precious. I can't sit around and wait for inspiration; I need to roll up my sleeves and get in the zone as fast as possible, and stay there for the 2-3 hours a night I can carve out.  Paul Graham, in his essay <i><a href="http://www.paulgraham.com/head.html">Holding A Program In One's Head</a></i>, offers some great suggestions in that regard.</p>
+<p>As such, I need to maximize my efficiency because every minute I can devote to startup work is precious. I can't sit around and wait for inspiration; I need to roll up my sleeves and get in the zone as fast as possible, and stay there for the 2-3 hours a night I can carve out.  Paul Graham, in his essay <i><a href="http://www.paulgraham.com/head.html">Holding A Program In One's Head</a></i>, offers some great suggestions in that regard.</p>
 
-<p>My main goal when I'm working is to get in the zone and crowd out the world. Here's how I do it:</p>
+<p>Here's how I do it.</p>
 
 <h3>Music</h3>
 <p>I usually work with headphones on.  I also have music that I listen to only when programming, so my mind has associated certain albums and genres of music with work.  Personally I find softer, ambient music with a steady beat to be more conducive to my productivity.  Maybe it's because it's enough noise to crowd out whatever's happening "out there", but not loud enough to be distracting.  Being a drummer, I can't listen to music like Cream or Jimi Hendrix because I wind up playing air drums when I should be knocking out code!</p>
@@ -22,10 +22,10 @@ title: In The Zone
 <p>I am not advocating the abuse of any substance, controlled or otherwise.  I am simply stating that beer, wine, or other drinks can help you "prevent the rest of the world from crowding in on you".  And who doesn't love a good 60 Minute IPA?</p>
 
 <h3>Ditch Social Networks</h3>
-<p>Self explanatory.  I ditched Facebook a couple of weeks ago, and have been cutting down my Twitter usage in the evenings when I work.  My productivity and focus has improved noticably.</p>
+<p>Self explanatory.  I ditched Facebook a couple of weeks ago, and have been cutting down my Twitter usage in the evenings when I work.  My productivity and focus have improved noticably.</p>
 
 <h3>Artifacts</h3>
-<p>Finally, sometimes I find inspiration from artifacts, things like books or pieces of art.  I went through a phase a few years ago where I kept my copy of Borges'<i><a href="http://www.amazon.com/Collected-Fictions-Jorge-Luis-Borges/dp/0140286802/ref=sr_1_1?ie=UTF8&qid=1356120355&sr=8-1&keywords=borges">Collected Fictions</a></i> on my desk while I worked.  Reading Borges put me in an interesting place, mentally, and I found inspiration while programming simply by having that book at hand.  It seems silly but it worked.</p>
+<p>Finally, sometimes I find inspiration in artifacts, things like books or pieces of art.  I went through a phase a few years ago where I kept my copy of Borges'<i><a href="http://www.amazon.com/Collected-Fictions-Jorge-Luis-Borges/dp/0140286802/ref=sr_1_1?ie=UTF8&qid=1356120355&sr=8-1&keywords=borges">Collected Fictions</a></i> on my desk while I worked.  Reading Borges put me in an interesting place, mentally, and I found inspiration while programming simply by having that book at hand.  It seems silly but it worked.</p>
 
 <h3>Summary</h3>
 <p>My aim with all these things is to help me focus on the task at hand, to get in the zone and stay there.  I suppose the overall idea is to realize what effect your immediate surroundings have on you.  We don't wait for inspiration, we roll up our sleeves and work, but some places are easier to work in than others.  So experiment with working in various locations, listening to music, using different lighting, having a beer or a glass of wine if it's possible.  Good luck.</p>
