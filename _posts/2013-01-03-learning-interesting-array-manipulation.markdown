@@ -2,9 +2,7 @@
 layout: post
 title: Learning - Interesting Array Manipulation
 ---
-<p>I said in the post about my <a href="http://ericfarkas.com/posts/learning-plan-for-2013/">2013 learning plans</a> that I'd blog about whatever new things I learn, even if they're dead simple or things I should have known already.  This is my first such post.</p>
-
-<p>The first chapters of <a href="http://pragprog.com/book/ruby3/programming-ruby-1-9">Programming Ruby</a> have reinforced a lot of my Ruby knowledge, but on page 46 I was introduced to a method of array manipulation I hadn't seen before. I'll use a modified version of the examples given in the book but offer a more thorough explanation.</p>
+<p>I said in the post about my <a href="http://ericfarkas.com/posts/learning-plan-for-2013/">2013 learning plans</a> that I'd blog about whatever I learn, even if it's dead simple or something I should have known already.  This is my first such post.</p>
 
 <p>Let's start with this array:</p>
 
