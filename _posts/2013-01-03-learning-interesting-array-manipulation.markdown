@@ -51,18 +51,17 @@ a[0..3] = []
 
 <p>
 {% highlight ruby %}
-#=>a = a = [1, 3, 5 , 7, 9]
+#=>a = [1, 3, 5 , 7, 9]
 a[ 2, 2 ] = "fizz", "buzz", "fizz", "buzz"
 #=>a = [1, 3, "fizz", "buzz", "fizz", "buzz", 9]
 
 #the above is equivalent to:
-#=>a = a = [1, 3, 5 , 7, 9]
+#=>a = [1, 3, 5 , 7, 9]
 a[ 2, 2 ] = ["fizz", "buzz", "fizz", "buzz"]
 #=>a = [1, 3, "fizz", "buzz", "fizz", "buzz", 9]
 
-# using our range notation, we can do the same as above:
-
-#=>a = a = [1, 3, 5 , 7, 9]
+# using range notation, we can do the same as above:
+#=>a = [1, 3, 5 , 7, 9]
 a[2..3] = "fizz", "buzz", "fizz", "buzz"
 #=>a = [1, 3, "fizz", "buzz", "fizz", "buzz", 9]
 {% endhighlight %}
