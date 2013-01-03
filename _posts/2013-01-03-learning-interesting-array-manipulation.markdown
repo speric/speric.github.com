@@ -35,7 +35,7 @@ a[ 2, 0 ] = 'bar'
 {% endhighlight %}
 </p>
 
-<p>We can also think of <code>a[ 2, 0 ] = "bar"</code> as meaning, "at index 2, insert the following value".  It has the same effect as doing <code>a.insert(2, "bar")</code>.
+<p>The above has the same effect as doing <code>a.insert(2, "bar")</code>.
 
 <p>The range notation can also be used to replace a range of elements, like so:</p>
 
