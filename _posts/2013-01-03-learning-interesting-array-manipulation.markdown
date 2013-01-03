@@ -4,7 +4,7 @@ title: Learning - Interesting Array Manipulation
 ---
 <p>I said in the post about my <a href="http://ericfarkas.com/posts/learning-plan-for-2013/">2013 learning plans</a> that I'd blog about whatever new things I learn, even if they're dead simple or things I should have known already.  This is my first such post.</p>
 
-<p>The first chapters of <a href="http://pragprog.com/book/ruby3/programming-ruby-1-9">Programming Ruby</a> have reinforced a lot of my Ruby knowledge, but on page 46 I was introduced to a method of array manipulation I hadn't seen before. I'll use a modified version of the examples given in the book but offer more thorough explanation.</p>
+<p>The first chapters of <a href="http://pragprog.com/book/ruby3/programming-ruby-1-9">Programming Ruby</a> have reinforced a lot of my Ruby knowledge, but on page 46 I was introduced to a method of array manipulation I hadn't seen before. I'll use a modified version of the examples given in the book but offer a more thorough explanation.</p>
 
 <p>Let's start with this array:</p>
 
@@ -25,7 +25,7 @@ a[ 2, 2 ] = 'foo'
 {% endhighlight %}
 </p>
 
-<p>Think of `a[ 2, 2 ] = "foo"` as meaning, "starting at index 2, replace 2 elements with the following value".  We can modify the same notation to insert a value but not replace anything in the array:</p>
+<p>Think of <code>a[ 2, 2 ] = "foo"</code> as meaning, "starting at index 2, replace 2 elements with the following value".  We can modify the same notation to insert a value but not replace anything in the array:</p>
 
 <p>
 {% highlight ruby %}
@@ -35,17 +35,7 @@ a[ 2, 0 ] = 'bar'
 {% endhighlight %}
 </p>
 
-<p>We can also think of `a[ 2, 0 ] = "bar"` as meaning, "at index 2, insert the following value".  It has the same effect as doing `a.insert(2, "bar")`.  You can also insert arrays using the same notation:</p>
-
-<p>
-{% highlight ruby %}
-#=>a = [1, 3, "bar", "foo", 9]
-a[ 1, 1 ] = [ 9, 8, 7 ]
-#=>a = [1, 9, 8, 7, "bar", "foo", 9]
-{% endhighlight %}
-</p>
-
-<p>Again, with the above we're saying "starting at index one, replace 1 element with the following value".<p>
+<p>We can also think of <code>a[ 2, 0 ] = "bar"</code> as meaning, "at index 2, insert the following value".  It has the same effect as doing <code>a.insert(2, "bar")</code>.
 
 <p>The range notation can also be used to replace a range of elements, like so:</p>
 
@@ -80,7 +70,7 @@ a[2..3] = "fizz", "buzz", "fizz", "buzz"
 
 <p>In each example I replaced two elements with four elements.  The array grows automatically (see documentation on <a href="http://www.ruby-doc.org/core-1.9.3/Array.html#method-i-5B-5D-3D">[]=</a>)</p>
 
-<p>One last thing.  If you specify a range outside of the size of the array, the intermin elements will be set to `nil`:</p>
+<p>One last thing.  If you specify a range outside of the size of the array, the intermin elements will be set to <code>nil</code>:</p>
 
 <p>
 {% highlight ruby %}
