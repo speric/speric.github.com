@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning: Interesting Array Manipulation
+title: Learning - Interesting Array Manipulation
 ---
 <p>I said in the post about my <a href="http://ericfarkas.com/posts/learning-plan-for-2013/">2013 learning plans</a> that I'd blog about whatever new things I learn, even if they're dead simple or things I should have known already.  This is my first such post.</p>
 
