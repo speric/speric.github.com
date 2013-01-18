@@ -16,7 +16,11 @@ title: Setting up statsd + graphite on Ubuntu 12.04 LTS
 <p>Thanks to <a href="http://marcelo-olivas.blogspot.com/2012/06/installing-graphite-on-ubuntu-1204.html">Marcelo Olivas</a> for that tip.</a>
 
 <h3>Target WSGI script '/opt/graphite/conf/graphite.wsgi' cannot be loaded as Python module.</h3>
-<p>If you see this error, make sure that apache owns the directory <pre>/opt/graphite/storage/logs/webapp</pre> (use <code>chown</code>).  This <a href="https://answers.launchpad.net/graphite/+question/178110">thread</a> pointed me in the right direction.</p>
+<p>If you see this error, make sure that apache owns the directory</p>
+
+<p><pre>/opt/graphite/storage/logs/webapp</pre></p>
+
+<p>This <a href="https://answers.launchpad.net/graphite/+question/178110">thread</a> pointed me in the right direction.</p>
 
 <p>Good luck.</p>
 
