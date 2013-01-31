@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A (Short) Rant About Working Remotely
+hn: http://news.ycombinator.com/item?id=5145097
 ---
 <p>I get emails on a weekly basis from recruiters looking for developers.  The first question I respond with is, "Are you open to remote workers?", to which the answer, 99% of the time, is "No".</p>
 
