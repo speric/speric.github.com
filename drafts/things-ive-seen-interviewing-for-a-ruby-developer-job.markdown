@@ -36,7 +36,9 @@ title: My Experiences Interviewing For A Ruby Developer Position
   <li>
   	<b>What does <code>a ||= b</code> mean?</b>
   </li>
-
+  <li>
+    <b>Talk about some of the differences between Ruby 1.8 and 1.9 with respect to the scope of variables within blocks.</b>
+  </li>
 </ul>
 
 <h3>The Rails Framework</h3>
@@ -53,16 +55,6 @@ title: My Experiences Interviewing For A Ruby Developer Position
 <ul>
   <li>
   	<b>How would I create a symlink?</b>
-  </li>
-  <li>
-    <b>Explain where might see a closure in Javascript</b>
-  </li>
-</ul>
-
-<h3>Miscellaneous Questions</h3>
-<ul>
-  <li>
-    <b>How would I create a symlink?</b>
   </li>
   <li>
     <b>Explain where might see a closure in Javascript</b>
