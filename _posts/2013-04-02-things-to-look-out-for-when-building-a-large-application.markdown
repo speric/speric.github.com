@@ -8,7 +8,7 @@ title: Things To Look Out For When Building A Large Application
 
 <ul>
 <li><p>Browser quirks. CSS/JavaScript/rendering. IE caching.</p></li>
-<li><p>Scaling: avoid early optimization. SQL doesn't map well to these problems – think about how to split up data over multiple machines. Understand indexing strategies, profile every SQL statement. Nagios or similar for monitoring.</p></li>
+<li><p>Scaling: avoid early optimization. SQL doesn't map well to these problems - think about how to split up data over multiple machines. Understand indexing strategies, profile every SQL statement. Nagios or similar for monitoring.</p></li>
 <li><p>Tags don't map well to SQL. Sometimes you can prune based on usage - only index the first few pages for example. This keeps indexes small and fast.</p></li>
 <li><p>Some latency in the system is OK - work out where you have leeway, e.g. RSS feeds can fall a few minutes behind without anyone minding.</p></li>
 <li><p>People are always going to abuse your system (scraping, greasemonkey, etc.)</p></li>
