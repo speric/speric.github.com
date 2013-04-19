@@ -9,7 +9,7 @@ title: How To Create Opportunity
 
 <p>I think it's helpful to see yourself as a hustler, and I mean that in the sporting sense.  In baseball, someone who's a hustler will run out every ground ball, dive for every line drive, run for every ball hit to the outfield.  At the end of the game, he comes back to the locker room with a dirty uniform. To a hustler, there are no lost causes.</p>
 
-<center><p><img src="http://luminousroc.com/wp-content/uploads/2011/04/pete-rose.jpg" class="img-polaroid/><br/><i>Charlie Hustle</i></p>
+<center><p><img src="http://luminousroc.com/wp-content/uploads/2011/04/pete-rose.jpg" class="img-polaroid/><br/><i>Charlie Hustle</i></p></center>
 
 <p>The way this played out for me is that I spoke to everyone who wants to work with me, everyone with an idea. I answer emails, I've met with people, even if I had a good inclination that it will be a waste of time.  Because you never know. Every potential opportunity is worth a look. This mindset (at the time I was looking for a project to be involved in long-term) is what caused me to <a href="https://twitter.com/saddington/status/4367475923">answer a random tweet</a>, which led me to Radford Harrell and <a href="https://talentsoup.com">TalentSoup</a>. On the surface it looked like short-term work, but it turned into 3-1/2 years (and going!) of a great partnership. You never know.</p>
 
