@@ -1,0 +1,4 @@
+Let's put that in perspective for a moment. You can initiate two simultaneous connections from the local host to a remote host, so long as the remote ports are unique. Similarly you can accept two simultaneous connections from a remote host to the same local port, provided that the remote ports are unique. But you cannot have two simultaneous connections to a remote host if the local ports and remote ports are identical.
+
+The moral of the story here is that a stream has no concept of message boundaries. Even though the client sent three separate pieces of data, the server received them as one piece of data when it read them. It had no knowledge of the fact that the client sent the data in three distinct chunks.  Note that, although the message boundaries weren't preserved, the order of the content on the stream was preserved.
+
