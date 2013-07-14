@@ -19,12 +19,12 @@ end
 {% endhighlight %}
 </p>
 
-<p>My <code>user.rb</code> class was responsible for post-downgrade cleanup, like canceling the subscription with Chargify, and resetting some of the features availabile to our Pro users.  The code certainly worked, but there were a number of things wrong the approach:</p>
+<p>My <code>user.rb</code> class was responsible for post-downgrade cleanup in the <code>downgrade_brand_to</code> method, like canceling the subscription with Chargify, and resetting some of the features availabile to our Pro users.  The code certainly worked, but there were a number of things wrong the approach:</p>
   
 <ul>
-  <li>Spread out the business logic behind canceling across a controller and a model.  I always want to log the reason for a cancellation along with doing the actual canceling, but the previous implementation had that happening apart from the actual downgrade process.</li>
-  <li>Since there was no single point of entry that would encapsulate the entire downgrade process, it was hard to test.</li>
-  <li>It was also not portable. We might want to downgrade in other parts of the app too (reconciliation process via Rake task, perhaps) and the current process would necessitate repeating ourselves, and possibly leaving out something important.</li>
+  <li><p>Spread out the business logic behind canceling across a controller and a model.  I always want to log the reason for a cancellation along with doing the actual canceling, but the previous implementation had that happening apart from the actual downgrade process.</p></li>
+  <li><p>Since there was no single point of entry that would encapsulate the entire downgrade process, it was hard to test.</p></li>
+  <li><p>It was also not portable. We might want to downgrade in other parts of the app too (reconciliation process via Rake task, perhaps) and the current process would necessitate repeating ourselves, and possibly leaving out something important.</p></li>
 </ul>
 
 <p>My refactored code now looks like this:</p>
@@ -49,7 +49,7 @@ class WebcompDowngrader
   end
   
   def downgrade!
-    reset_talent_brand_and_vanity_url
+    reset_subscription_level
     delete_chargify_subscription    
     log_downgrade_reason
   end
@@ -57,8 +57,7 @@ class WebcompDowngrader
   private
   
   def reset_subscription_level
-    @user.subscription_level = "downgraded_brand"
-    #some other downgrading actions...
+    #some downgrading actions on the user's account...
     @user.save
   end
   
