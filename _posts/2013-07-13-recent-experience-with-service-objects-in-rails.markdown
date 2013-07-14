@@ -22,7 +22,7 @@ end
 <p>My <code>user.rb</code> class was responsible for post-downgrade cleanup in the <code>downgrade_brand_to</code> method, like canceling the subscription with Chargify, and resetting some of the features availabile to our Pro users.  The code certainly worked, but there were a number of things wrong the approach:</p>
   
 <ul>
-  <li><p>Spread out the business logic behind canceling across a controller and a model.  I always want to log the reason for a cancellation along with doing the actual canceling, but the previous implementation had that happening apart from the actual downgrade process.</p></li>
+  <li><p>Spread out the business logic behind canceling across a controller and a model.  I always want to log the reason for a cancellation along with doing the actual canceling, but the previous implementation had those two occuring separately.</p></li>
   <li><p>Since there was no single point of entry that would encapsulate the entire downgrade process, it was hard to test.</p></li>
   <li><p>It was also not portable. We might want to downgrade in other parts of the app too (reconciliation process via Rake task, perhaps) and the current process would necessitate repeating ourselves, and possibly leaving out something important.</p></li>
 </ul>
