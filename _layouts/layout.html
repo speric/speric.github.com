@@ -13,48 +13,50 @@
 </head>
 
 <body>
- <div class="container">
-   <div class="row">
-     <div class="span12">
-       <div style="margin-top:20px;">
-         <header class="jumbotron subhead">
-	   <h1><a href="/">Eric Farkas</a></h1>
-	   <div class="row">
-	     <div class="pull-right">
-	       <ul class="social-icons">
-	         <li><a href="http://github.com/speric" class="social ss-icon ss-social-circle">octocat</a></li>
-		 <li><a href="http://twitter.com/ericfarkas" class="social ss-icon ss-social-circle">twitter</a></li>
-		 <li><a href="http://instagram.com/speric" class="social ss-icon ss-social-circle">instagram</a></li>
-		 <li><a href="http://flickr.com/photos/ericfarkas" class="social ss-icon ss-social-circle">flickr</a></li>
-		 <li><a href="http://last.fm/user/ericfarkas" class="social ss-icon ss-social-circle">lastfm</a></li>
-		 <li><a href="https://delicious.com/ericfarkas" class="social ss-icon ss-social-circle">delicious</a></li>
-		 <li><a href="http://linkedin.com/in/efarkas" class="social ss-icon ss-social-circle">linkedin</a></li>
-		 <li><a href="http://feeds.feedburner.com/ericfarkas" class="social ss-icon ss-social-circle">rss</a></li>
-	       </ul>	            	
- 	       <ul class="nav nav-pills pull-right">
-	         <li><a href="/projects">Projects</a></li>
-		 <li><a href="/quotes">Quotes</a></li>
-		 <li><a href="/about">About</a></li>
-	       </ul>             	
-	     </div>
-           </div>		 		
-	 </header>
-       </div>
-     </div>            
-   </div>
-
-   {% if page.header_img %}
-   <div class="hiro" style="background-image: url(/assets/images/headers/{{ page.header_img }});"></div>
-   {% endif %}
-		
-  <div class="row">
-    <div class="span12 offset2">
-      <div class="content">
-        {{ content }}
-      </div>
-    </div> 
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div style="margin-top:20px;">
+          <header class="jumbotron subhead">
+	    <h1><a href="/">Eric Farkas</a></h1>
+	    <div class="row">
+	      <div class="pull-right">
+	        <ul class="social-icons">
+	          <li><a href="http://github.com/speric" class="social ss-icon ss-social-circle">octocat</a></li>
+		  <li><a href="http://twitter.com/ericfarkas" class="social ss-icon ss-social-circle">twitter</a></li>
+		  <li><a href="http://instagram.com/speric" class="social ss-icon ss-social-circle">instagram</a></li>
+		  <li><a href="http://flickr.com/photos/ericfarkas" class="social ss-icon ss-social-circle">flickr</a></li>
+		  <li><a href="http://last.fm/user/ericfarkas" class="social ss-icon ss-social-circle">lastfm</a></li>
+		  <li><a href="https://delicious.com/ericfarkas" class="social ss-icon ss-social-circle">delicious</a></li>
+		  <li><a href="http://linkedin.com/in/efarkas" class="social ss-icon ss-social-circle">linkedin</a></li>
+		  <li><a href="http://feeds.feedburner.com/ericfarkas" class="social ss-icon ss-social-circle">rss</a></li>
+	        </ul>	            	
+ 	        <ul class="nav nav-pills pull-right">
+	          <li><a href="/projects">Projects</a></li>
+		  <li><a href="/quotes">Quotes</a></li>
+		  <li><a href="/about">About</a></li>
+	        </ul>             	
+	      </div>
+            </div>		 		
+	  </header>
+        </div>
+      </div>            
+    </div>
   </div>
-</div>
+
+{% if page.header_img %}
+  <div class="hiro" style="background-image: url(/assets/images/headers/{{ page.header_img }});"></div>
+{% endif %}
+
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="content">
+          {{ content }}
+        </div>
+      </div> 
+    </div>
+  </div>
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
