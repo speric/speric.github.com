@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Setting up statsd + graphite on Ubuntu 12.04 LTS
+header_img: "liverpool.jpg"
 ---
 <p>There are many great tutorials about setting up <a href="https://github.com/etsy/statsd">statsd</a> and <a href="http://graphite.wikidot.com/">graphite</a>, specifically on Ubuntu 12.04.  The best walk through I found was <a href="https://github.com/janoside/ubuntu-statsd-graphite-setup">https://github.com/janoside/ubuntu-statsd-graphite-setup</a>.  I'd like to add some things that were left out of that tutorial that I had to figure out.</p>
 
