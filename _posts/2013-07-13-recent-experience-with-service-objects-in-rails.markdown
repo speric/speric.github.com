@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Recent Experience With Service Objects In Rails
+title: "Recent Experience With Service Objects In Rails"
+header_img: "beach.jpg"
 ---
+
 <p>I read <a href="https://twitter.com/brynary">Bryan Helmkamp's</a> blog post <a href="http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/">7 Patterns to Refactor Fat ActiveRecord Models</a> when it was originally posted, but it's taken me until recently to implement some of his suggestions in <a href="https://talentsoup.com">TalentSoup</a>. Specifically, I've been writing service objects, using similar criteria to Bryan.</p>
 
 <p>One quick example of how I've used service objects is in the downgrading process. Previously, my code for downgrading an account looked like this:</p>
