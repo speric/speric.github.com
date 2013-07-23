@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Tale of Two Beers
+header_img: "homebrew.jpg"
 ---
 <p>On the night of December 17, 2011, I brewed a clone of <a href="http://rivendellcraftbrewery.com/brew-2-new-belgium-abbey-ale-clone-dubbel">New Belgium's Abbey Ale</a>, which is a <a href="http://beeradvocate.com/beer/style/57">dubbel</a>.  On the evening of July 21, 2012, I brewed a clone of <a href="http://www.austinhomebrew.com/product_info.php?products_id=11934">New Belgium's Saison Belgian Style Farmhouse Ale</a>.</p>
 
