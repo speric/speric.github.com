@@ -33,9 +33,9 @@ h2{
 .hiro {
   background-color: #2B2B2B;
   background-size: cover;
+	background-repeat: no-repeat;
   height: 200px;
   box-shadow: inset 0 0 30px rgba(0,0,0,.90);
-  width: 100%;
 }         
 .container{}
 .social-icons{
