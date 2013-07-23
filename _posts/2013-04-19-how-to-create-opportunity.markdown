@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How To Create Opportunity
+header_img: "dfh.jpg"
 ---
 <p>A number of related but scattered thoughts on the subject of creating opportunity for yourself.</p>
 
