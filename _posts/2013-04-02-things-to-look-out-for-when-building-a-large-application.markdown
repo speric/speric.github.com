@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Things To Look Out For When Building A Large Application
+header_img "pipe.jpg"
 ---
 <p>A while back I found <a href="http://simon.incutio.com/notes/2006/summit/schachter.txt">a great set of notes</a> that were taken at a presentation by <a href="https://delicious.com/">del.icio.us</a> creator <a href="https://twitter.com/joshu">Joshua Schachter</a> at the 2006 Future Of Web Apps summit.  They were really helpful to me in my growth as a developer.  Unfortunately the notes are no longer available at the original URL, so I've taken the liberty to reproduce them here.</p>
 
