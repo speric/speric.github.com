@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The Value Of Lifecycle Emails
+title: "The Value Of Lifecycle Emails"
+header_img: "shake_shack.jpg"
 ---
 <p>Since the beginning of 2013, I've focused a lot of my development efforts on so-called "growth hacking".  Whatever the connotations that term has, I have found some really good ideas reading the many blog posts and post-mortems that are floating around.  We've seen solid growth at <a href="https://talentsoup.com">TalentSoup</a> that's been directly related to our focus on bringing our users to the "ah-ha" moment, and clearly presenting our value prop in blog posts and other marketing content.</p>
 
