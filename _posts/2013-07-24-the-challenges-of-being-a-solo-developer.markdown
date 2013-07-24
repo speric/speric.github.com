@@ -29,7 +29,7 @@ header_img: "skyline_from_harlem.jpg"
 
 <p>Also, it can be emotionally difficult to bear the weight of knowing every feature, bug fix and upgrade depends on you. This can lead to burnout.</p>
 
-<p>Finally, when you are a solo developer, there's no one to review your actual code. No one to call you out on a bad implementation, or educate you on the idiomatic way to do a certain thing. No one to raise a flag when untested code goes into production.  I know I've gotten into some bad habits that have taken much effort to reverse. When you are a solo developer you don't get the positive peer pressure that's needed to grow as a craftsman.</p>
+<p>Finally, when you are a solo developer, there's no one to review your actual code. No one to call you out on a bad implementation, or educate you on the idiomatic way to do a certain thing. No one to raise a flag when untested code goes into production.  I've gotten into some bad habits that have taken much effort to reverse. When you are a solo developer you don't get the positive peer pressure that's needed to grow as a craftsman.</p>
 
 <h3>A Way Forward</h3>
 <p>The challenges of being a solo developer aren't insurmountable. If you feel that you're not able to get out of your comfort zone, you have to, in the words of my friend <a href="http://twitter.com/snakes">Matt</a>, "Aggressively find ways to use things."  It takes being disciplined and intentional to gain experience with new things when you are on your own. There's no other way. No secret sauce.</p>
