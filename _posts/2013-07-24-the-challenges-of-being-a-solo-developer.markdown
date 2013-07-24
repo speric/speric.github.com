@@ -2,6 +2,7 @@
 layout: post
 title: The Challenges Of Being A Solo Developer
 header_img: "skyline_from_harlem.jpg"
+hn: https://news.ycombinator.com/item?id=6096615
 ---
 <p>Since October 2009 I have been the only developer at <a href="https://talentsoup.com">TalentSoup</a>.  In the past, I've been part of large co-located teams, and smaller distributed teams (across continents). TalentSoup is my first experience building an application this large, by myself. I want to briefly talk about my experience as a solo developer, and offer some helpful tips to others in the same situation.</p>
 
