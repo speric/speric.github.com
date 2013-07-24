@@ -5,7 +5,7 @@ header_img: "skyline_from_harlem.jpg"
 ---
 <p>Since October 2009 I have been the only developer at <a href="https://talentsoup.com">TalentSoup</a>.  In the past, I've been part of large co-located teams, and smaller distributed teams (across continents). TalentSoup is my first experience building an application this large, by myself. I want to briefly talk about my experience as a solo developer, and offer some helpful tips to others in the same situation.</p>
 
-<p>In short, the best part of being a solo developer is that you can do whatever you want.  At the same time, the worst part of being a solo developer is that you can do whatever you want.</p>
+<p>In short, the best part of being a solo developer is that you can do whatever you want. Also, the worst part of being a solo developer is that you can do whatever you want.</p>
 
 <h3>The Best Part</h3>
 <p>The best part of being a solo developer is that you can do whatever you want. It turns out that this is a double edged sword, as I'll get to below. But there are times when it's nice to use whatever technologies or frameworks that you are most productive with. No bureaucracy to deal with.</p>
