@@ -10,12 +10,11 @@ header_img: "skyline_from_harlem.jpg"
 
 <p>The other great thing is that you learn a lot.  When working on an application with other developers, the tendency is to divide up the work based on the expertise of the team, especially when time is of the essence. It takes a strong lead developer to say, "Jane doesn't have a lot of experience with billing systems, so we're going to let her spend the next few weeks working on some news features for ours, so she can learn." As a solo developer, you get those opportunities by default.  For me, this also involved learning basic sysadmin stuff.  Here are some things I've done at TalentSoup that I'd not done before:</p>
 <ul>
-  <li><p>Set up and secure a VPS</p></li>
-  <li><p>Install and set up Apache, nginx, and MySQL</p></li>
+  <li><p>Implement a multi-tenant architecture (for <a href="https://getcommissary.com/">Creative Commissary</a>)</p></li>
   <li><p>Set up and integrate Graphite + statsd</p></li>
   <li><p>Integrate with a recurring billing solution (Chargify and Stripe in our case)</p></li>
-  <li><p>App monitoring with Scout</p></li>
-  <li><p>Setting up A/B tests</p></li>
+  <li><p>Application monitoring with Scout</p></li>
+  <li><p>Set up and monitor A/B tests, funnel tracking, and other metrics</p></li>
 </ul>
 
 <p>All this, in addition to things like upgrading from Rails 2 to 3, and all the little things you learn as you refactor, gain a deeper understanding of your language and framework, etc.  Not to say I wouldn't have learned as much if I were working with someone else, just that I <b>had</b> to learn. Having worked in the past at places where there were separate teams handing server and database administration, I enjoyed the chance to dig in to new things.</p>
