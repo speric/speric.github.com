@@ -25,9 +25,9 @@ header_img: "skyline_from_harlem.jpg"
 
 <p>This principle also affects the learning process.  There have been times when I have wanted to try out a new database for example, but knowing there'd be a learning curve, I avoided it and stuck with what I knew. There's a good business reason for doing this: when stuff breaks, it's better to be working with something you know how to fix. But it would have been nice to be working with someone who had experience with that new database and provided a safety net in terms of knowledge and experience. Even if no one on a team has experience with a new technology, stepping into the unknown with a group is better than stepping in alone.</p>
 
-<p>The other factor is that we all have comfort zones.  I have test frameworks and gems I like to use, and a development process that feels comfortable to me.  But if I want to keep my skills relevant, thinking about opportunities beyond my current position, it would be in my best interest to branch out and learn other things. As a solo dev, unless you are really disciplined, it's hard to step out of that comfort zone.</p>
+<p>Another factor is that we all have comfort zones.  I have test frameworks and gems I like to use, and a development process that feels comfortable to me.  But if I want to keep my skills relevant, thinking about opportunities beyond my current position, it would be in my best interest to branch out and learn other things. As a solo dev, unless you are really disciplined, it's hard to step out of that comfort zone.</p>
 
-<p>Emotionally it can be hard to bear the weight of knowing every feature, bug fix and upgrade depends on you.
+<p>Also, it can be emotionally difficult to bear the weight of knowing every feature, bug fix and upgrade depends on you. This can lead to burnout.</p>
 
 <p>Finally, and most personally, when you are a solo developer, there's no one to review your actual code. No one to call you out on a bad implementation, or educate you on the idiomatic way to do a certain thing. No one to raise a flag when untested code goes into production.  I know I've gotten into some bad habits that have taken much effort to reverse. When you are a solo developer you don't get the positive peer pressure that's needed to grow as a craftsman.</p>
 
