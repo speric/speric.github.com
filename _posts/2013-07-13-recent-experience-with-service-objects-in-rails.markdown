@@ -38,7 +38,6 @@ def downgrade
   @subscription = Chargify::Subscription.find_by_customer_reference(@current_user.chargify_reference)
   WebcompDowngrader.new(@current_user, @subscription, params[:downgrade_reason]).downgrade!
   redirect_to controller: :home, notice: "Your account has been successfully downgraded."
-  end
 end
 
 #service object
