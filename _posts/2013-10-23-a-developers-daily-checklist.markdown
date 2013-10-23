@@ -7,7 +7,7 @@ header_img: "vineyard.jpg"
 
 <ul>
 <li><p>Communicate early, and often. Don't be afraid to ask questions.</p></li>
-<li><p>If something isn't clear or a proposed solution doesn't seem right, say something. At best you've discovered a blind spot in your team's approach, at worst, you will have learned something. Which isn't a bad thing!</p></li>
+<li><p>If something isn't clear or a proposed solution doesn't seem right, say something. At best you've discovered a blind spot in your team's approach, at worst, you will have learned something. So you win either way.</p></li>
 <li><p>Assume nothing. Take the extra time to confirm or refute your assumptions by asking a team member.</p></li>
 <li><p>Program defensively. Assume users will break things and enter bad data, or that the worst will happen.</p></li>
 <li><p>It's ok joke around and shoot the breeze every so often, but at the end of the day, this is your job. Be serious about it.</p></li>
