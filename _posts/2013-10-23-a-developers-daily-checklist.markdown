@@ -3,7 +3,7 @@ layout: post
 title: A Developer's Daily Checklist
 header_img: "vineyard.jpg"
 ---
-<p>Below is a list I am going read everyday before I start working. Some points are repetitive, because I need to hear them over and over. This list is in no particular order.</p>
+<p>Below is a list I am going to read everyday before I start working. Some points are repetitive, because I need to hear them over and over. This list is in no particular order.</p>
 
 <ul>
 <li><p>Communicate early, and often. Don't be afraid to ask questions.</p></li>
