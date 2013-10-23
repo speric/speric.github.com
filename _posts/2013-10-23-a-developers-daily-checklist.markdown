@@ -3,7 +3,7 @@ layout: post
 title: A Developer's Daily Checklist
 header_img: "vineyard.jpg"
 ---
-<p>Below is a list of things I am aiming to review everyday before I start working. Some points are repetitive, because I need to hear them over and over. This list is in no particular order.</p>
+<p>Below is a list I am going read everyday before I start working. Some points are repetitive, because I need to hear them over and over. This list is in no particular order.</p>
 
 <ul>
 <li><p>Communicate early, and often. Don't be afraid to ask questions.</p></li>
@@ -15,7 +15,7 @@ header_img: "vineyard.jpg"
 <li><p>Test your code thoroughly. Ask others if there are blind spots in your tests.</p></li>
 <li><p>Understand that, even though every PR is reviewed by others, there's a level of trust in you as a developer. Own the code you write, and take pride in it. Make sure it works, don't assume others will catch a mistake.</p></li>
 <li><p>Never. Stop. Learning.</p></li>
-<li><p>Ask about blind spots: What other parts of the app might break if I change this? What are some "gotchas" about the process I am working on that are perhaps not apparent? Can you just go over with me what's happening here?</p></li>
+<li><p>Ask about blind spots: "What other parts of the app might break if I change this? What are some "gotchas" about the process I am working on that are perhaps not apparent? Can you just go over with me what's happening here?"</p></li>
 <li><p>Document useful things you discover.</p></li>
 <li><p>If something is broken, fix it.</p></li>
 </ul>
