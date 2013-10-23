@@ -20,4 +20,4 @@ header_img: "vineyard.jpg"
 <li><p>If something is broken, fix it.</p></li>
 </ul>
 
-<p>Biggest takeaway for me, especially as a remote worker, is to just speak up if you have a question or are unsure about something. In my experience, colleagues are very understanding about getting someone up to speed with how the app works, or to just go back and forth talking about the merits and demerits of a particular approach.</p>
+<p>The biggest takeaway for me, especially as a remote worker, is to just speak up if you have a question or are unsure about something. In my experience, colleagues are very understanding about getting someone up to speed with how the app works, or to just go back and forth talking about the merits and demerits of a particular approach.</p>
