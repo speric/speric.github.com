@@ -1,0 +1,11 @@
+---
+layout: post
+title: 2013 Year In Review
+header_img: "highbury.jpg"
+---
+<p>In November 2012, I wrote about my <a href="http://ericfarkas.com/posts/learning-plan-for-2013/">learning plan for 2013</a>. I set some lofty goals for myself, so how did I do?</p>
+
+<h3>What I Got Done From The List</h3>
+<p>From the list, I did manage to read <a href="http://pragprog.com/book/ruby3/programming-ruby-1-9">Programming Ruby 1.9 (3rd edition): The Pragmatic Programmers' Guide</a>, <a href="http://pragprog.com/book/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a>, and <a href="http://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104">Eloquent Ruby</a>. These three books really did help me deepen my understanding of the Ruby language. Although all three books were excellent, I got the most out of <a href="http://pragprog.com/book/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a>. It gave me a solid understanding of things I 
+
+I also got into <a href="http://www.rubytapas.com/">Ruby Tapas</a> and <a href="https://www.destroyallsoftware.com/screencasts">Destroy All Software</a>, though I haven't watched every episode of either.</p>
