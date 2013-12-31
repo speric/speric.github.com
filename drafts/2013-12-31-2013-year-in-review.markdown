@@ -1,11 +1,19 @@
 ---
 layout: post
 title: 2013 Year In Review
-header_img: "highbury.jpg"
 ---
 <p>In November 2012, I wrote about my <a href="http://ericfarkas.com/posts/learning-plan-for-2013/">learning plan for 2013</a>. I set some lofty goals for myself, so how did I do?</p>
 
 <h3>What I Got Done From The List</h3>
-<p>From the list, I did manage to read <a href="http://pragprog.com/book/ruby3/programming-ruby-1-9">Programming Ruby 1.9 (3rd edition): The Pragmatic Programmers' Guide</a>, <a href="http://pragprog.com/book/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a>, and <a href="http://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104">Eloquent Ruby</a>. These three books really did help me deepen my understanding of the Ruby language. Although all three books were excellent, I got the most out of <a href="http://pragprog.com/book/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a>. It gave me a solid understanding of things I 
+<p>From the list, I did manage to read <a href="http://pragprog.com/book/ruby3/programming-ruby-1-9">Programming Ruby 1.9 (3rd edition): The Pragmatic Programmers' Guide</a>, <a href="http://pragprog.com/book/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a>, and <a href="http://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104">Eloquent Ruby</a>. These three books really did help me deepen my understanding of the Ruby language. Although all three books were excellent, I got the most out of <a href="http://pragprog.com/book/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a>. What I knew of metaprogramming in Ruby I had gleaned from reading code and blog posts. Therefore it was beneficial to have Ruby's metaprogramming features explained in detail, to fill in the gaps in my knowledge.</p>
 
-I also got into <a href="http://www.rubytapas.com/">Ruby Tapas</a> and <a href="https://www.destroyallsoftware.com/screencasts">Destroy All Software</a>, though I haven't watched every episode of either.</p>
+<h3>Other Avenues Of Learning</h3>
+<p>I began working at <a href="http://chargify.com">Chargify</a> in August. The demands of our particular stack meant revising my learning plan, which I was happy to do. I read <a href="https://leanpub.com/everydayrailsrspec">Everyday Rails Testing with RSpec</a>, since I hadn't used RSpec much in the past. To be honest though, I learned the most from pair programming with my colleagues.</p>
+
+<p>I can't emphasize enough how awesome pairing is for learning purposes. It took me a while to become comfortable with pairing. Having worked as a solo dev for a long time, I felt insecure about showing my code to other people, to say nothing of working through a problem and iterating with someone right there. On top of that, I was learning a new editor (more on that below), so there was another layer of anxiety. But I got over my fears, learned enough vim to be productive, and now I can really get a lot out of pairing sessions.</p>
+
+<p>Having made the TextMate to vim transition in my time at Chargify, in my opinion the best way to learn vim is to use someone's <a href="http://dotfiles.github.io/">dotfiles</a>. Preferably you know this person and they can explain things to you, and even pair with you while using their dotfiles. It's enlightening to pair with someone and have them say, "Hey you can do that a lot quicker, let me show you."</p>
+
+<p>I also got into <a href="http://www.rubytapas.com/">Ruby Tapas</a> and <a href="https://www.destroyallsoftware.com/screencasts">Destroy All Software</a> in 2013. Being in the Rails/RSpec/TDD/git/vim headspace now has helped me get more out of DAS. Everytime I rewatch an episode I learn something new.</p>
+
+<h3>What I Built</h3>
