@@ -50,4 +50,4 @@ shouldn't criticize the people actually doing <i>something</i>.</p>
 
 <p>The only time effort itself should be criticized is if it's sub-par. One should always aim for excellence. But excellence is hard to achieve, especially at the beginning of a thing. So as long as someone is trying as best as they can, and working to improve, their effort should be praised.</p>
 
-<p>Poor outcomes are tolerated on the way to better outcomes, but poor effort is never tolerated.</p>
+<p>Poor outcomes are tolerated on the way to better outcomes. Poor effort is never tolerated. Honest effort is always to be praised.</p>
