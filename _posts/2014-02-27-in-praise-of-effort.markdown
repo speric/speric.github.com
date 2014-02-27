@@ -9,7 +9,7 @@ G.K. Chesterton</blockquote></p>
 
 <p>Newton's first law of motion states that objects in motion
 tend to stay in motion, and objects at rest tend to stay at rest, unless
-acted on by an external force. This law articulates a reason behind an
+acted on by an external force. This law explains the reason behind an
 opinion I've adopted: starting <i>something</i> is difficult. Of course
 finishing, and finishing well, are also difficult. But I think that
 first leap, from doing <i>nothing</i> to <i>something</i>, is
