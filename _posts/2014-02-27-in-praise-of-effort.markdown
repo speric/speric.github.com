@@ -20,9 +20,7 @@ there's a price to putting forth an effort. Doing <i>something</i>
 means not doing other things. It's a sacrifice of time, sometimes with
 family, oftentimes of activities that are themselves enriching. Doing
 <i>something</i> means there will an end product, which can be (and
-often is)
-criticized. So there's also the emotional price which can
-must be paid.</p>
+often is) criticized. So there's also the emotional price which must be paid.</p>
 
 <p>Additionally, you have those laws of motion working against you. It
 seems to be our nature, that when we're doing nothing, we tend to
