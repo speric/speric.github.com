@@ -35,7 +35,7 @@ eventually become a PR, I'll push my branch:</p>
 <pre>$ git pushr</pre>
 
 <p>The <code>pushr</code> command is a nice little shortcut from the <a
-href="https://github.com/jeremywrowe/dotfiles/blob/master/dots/gitconfig#L67">dotfiles</a> I use. It creates a remote branch with the same name as my local branch, in this case, <code>an-awesome-new-feature</code>. After the initial <code>$ git pushr</code>, I can just do <code>$ git push</code> whenever I push to the remote branch.</p>
+href="https://github.com/jeremywrowe/dotfiles/blob/master/dots/gitconfig#L67">dotfiles</a> I use. It creates a remote branch with the same name as my local branch, in this case, <code>an-awesome-new-feature</code>. After the initial <code>git pushr</code>, I can just do <code>git push</code> whenever I push to the remote branch.</p>
 
 <p>The "do some work, test, commit, push" loop happens until I am
 satisfied that the feature is ready for a pull request. If a new feature
