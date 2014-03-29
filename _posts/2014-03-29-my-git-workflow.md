@@ -29,7 +29,7 @@ like:</p>
 <p>If I am
 pairing, I will be more descriptive with the commit messages. But when I am
 coding alone, these pre-PR commits are for me, and are not meant to be
-seen by my colleagues. When I am satisfied that the work I've done will
+used for any meaningful code review. When I am satisfied that the work I've done will
 eventually become a PR, I'll push my branch:</p>
 
 <pre>$ git pushr</pre>
