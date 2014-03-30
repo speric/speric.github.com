@@ -29,13 +29,12 @@ like:</p>
 <p>If I am
 pairing, I will be more descriptive with the commit messages. But when I am
 coding alone, these pre-PR commits are for me, and are not meant to be
-used for any meaningful code review. When I am satisfied that the work I've done will
-eventually become a PR, I'll push my branch:</p>
+used for any meaningful code review. When I am satisfied that I the work I've done will eventually become a PR, I'll push my branch to a remote:</p>
 
 <pre>$ git pushr</pre>
 
 <p>The <code>pushr</code> command is a nice little shortcut from the <a
-href="https://github.com/jeremywrowe/dotfiles/blob/master/dots/gitconfig#L67">dotfiles</a> I use. It creates a remote branch with the same name as my local branch, in this case, <code>an-awesome-new-feature</code>. After the initial <code>git pushr</code>, I can just do <code>git push</code> whenever I push to the remote branch.</p>
+href="https://github.com/jeremywrowe/dotfiles/blob/master/dots/gitconfig#L67">dotfiles</a> I use. It creates a remote branch with the same name as my local branch, in this case, <code>an-awesome-new-feature</code>. After the initial <code>git pushr</code>, I can just do <code>git push</code> and it will push to the remote branch.</p>
 
 <p>The "do some work, test, commit, push" loop happens until I am
 satisfied that the feature is ready for a pull request. If a new feature
@@ -49,17 +48,13 @@ href="http://git-scm.com/book/en/Git-Branching-Rebasing">rebasing</a> my
 feature branches whenever anything is merged into <code>master</code>,
 even if I don't think they will effect what I am doing. I've done this
 mainly because, if there is a conflict, I'd rather be in merge hell in
-the middle of working on a feature than at the end of a feature. It's dispiriting when you're about to open a shiny new PR and you realize it won't merge cleanly.  It's a psychological thing!</p>
-
-<p>Now, my commit
-history will be made up of all "WIP" commits, which is to say, the
-history will be messy and the messages be unhelpful.</p>
+the middle of working on a feature than at the end of a feature. It's dispiriting when you're about to open a shiny new PR and you realize it won't merge cleanly.</p>
 
 <p>At this point I
 will <a href="http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html">rebase
 and squash</a> all of my commits on the
 <code>an-awesome-new-feature</code> branch into one commit. This commit
-message will be as informative as possible, since it will become the
+message will be as informative (detailed) as possible, since it will become the
 basis for the pull request message.</p>
 
 <p>Once that's done, I'll force push to the branch with my new rebased
