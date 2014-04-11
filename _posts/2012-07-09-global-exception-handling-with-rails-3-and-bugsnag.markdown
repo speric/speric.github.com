@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Global Exception Handling With Rails 3 and Bugsnag
+title: Global Exception Handling With Bugsnag
 ---
 <p>At <a href="https://talentsoup.com">TalentSoup</a>, we recently launched a new application privately to a number of our trusted customers.  For exception handling, I decided to give <a href="http://bugsnag.com">bugsnag</a> a try.  In the past I've used the <a href="https://github.com/rails/exception_notification">exception_notification</a> gem, and have even rolled my own solution for handling exceptions, but for this new app, I thought I'd do something new. I'm a big fan of leveraging existing "solutions" for common tasks, so I can focus on the core business of the application (see <a href="http://fhwang.net/2012/02/19/Buy-vs-build-for-an-early-stage-startup">Buy-vs-build for an early stage startup</a>).</p>
 
