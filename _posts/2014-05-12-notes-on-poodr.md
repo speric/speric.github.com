@@ -32,7 +32,6 @@ Design in Ruby</a> by <a href="https://twitter.com/sandimetz">Sandi Metz</a>.</p
 
 >A class should do the smallest possible useful thing.
 <br/>
-
 >Applications that are easy to change consist of classes that are easy to resue.
 
 <br/>
