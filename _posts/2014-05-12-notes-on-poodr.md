@@ -31,8 +31,10 @@ Design in Ruby</a> by <a href="https://twitter.com/sandimetz">Sandi Metz</a>.</p
 #### Chapter 2 - Designing Classes with a Single Responsibility
 
 >A class should do the smallest possible useful thing.
+
 <br/>
 >Applications that are easy to change consist of classes that are easy to resue.
+
 <br/>
 >How can you determine if the `Gear` class contains behavior that belongs somewhere else? One way is to pretend that it's sentient and to interrogate it. If you rephrase every one of it's methods as a question, asking the question ought to make sense. For example, asking "Gear, what is your ratio?" seems perfectly reasonable..."Gear, what is your tire size?" is just downright ridiculous.
 
@@ -129,6 +131,7 @@ Case statements that switch on class, `kind_of?`, `is_a?`, and `responds_to?` ar
 #### Chapter 6 - Acquiring Behavior Through Inheritance
 
 >Inheritance is, at it's core, a mechanism for _automatic message delegation_. It defines a forward path for not-understood messages.
+
 <br/>
 >Subclasses are _specializations_ of their superclasses
 
@@ -216,6 +219,7 @@ With inheritance, a correctly modeled hierarchy will give you the benefit of pro
 
 >Enormous, broad-reaching changes of behavior can be achieved with very small changes in code. This is true, for better or for worse, whether you come to regret it or not.
 <br/>
+
 >Avoid writing frameworks that require users of your code to subclass your objects in order to gain your behavior. Their application's objects may already be arranged in a hierarchy; inheriting from your framework may not be possible.
 
 <br/>
@@ -231,6 +235,7 @@ With inheritance, a correctly modeled hierarchy will give you the benefit of pro
                        
 >Changeability is the  only design metric that matters; code that's easy to change _is_ well-designed.
 <br/>      
+
 >Good design preserves maximum flexibility at minimum by putting off decisions at every opportunity, deferring commitments until more specific requirements arrive. When that day comes, _refactoring_ is how you morph the current code structure into the one what will accommodate the new requirements.
 
 Tests free you to refactor with impunity.
@@ -253,8 +258,10 @@ Benefits of testing
 
 >Most programmers write too many tests...One simple way to get better value from tests is to write fewer of them.
 <br/>
+
 >Dealing with objects as if they are only and exactly the messages to which they respond lets you design a changeable application, and it is your understanding of the importance of this perspective that allows you to create tests that provide maximum benefit at minimum cost.
 <br/>
+
 >Here, then, are guidelines for what to test: Incoming messages should be tested for the state they return. Outgoing command messages should be tested to ensure they get sent. Outgoing query messages should not be tested.
 
 **Knowing When to Test**
@@ -262,8 +269,10 @@ Benefits of testing
 First, obviously.
 
 >Tests are reuse.
+
 <br/>
 >Your application is improved by ruthlessly eliminating code that is not actively being used.
+
 <br/>
 >Freeing your imagination from an attachment to the class of the incoming object opens design _and testing_ possibilities that are otherwise unavailable.
 
