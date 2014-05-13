@@ -101,6 +101,7 @@ It's a "law" in the sense of a guideline, not a hard and fast rule.
 
 >Balance the likelihood and cost of change against the cost of removing the violation.
 <br/>
+
 >...Demeter is more subtle than it appears.  It's fixed rules are not an end in themselves; like every design principle, it exists _in service of_ your overall goals.  Certain "violations" of Demeter reduce your application's flexibility and maintainability, while others make perfect sense.
 
 The problem with Demeter violations (like `customer.bicycle.wheel.rotate`) is that they show that code (`customer`) knows too much about how other code works. It's a manifestation of tight coupling.
@@ -114,8 +115,10 @@ Duck types = public interfaces not tied to any specific class
 
 >It's not what an object _is_ that matters, it's what it _does_.
 <br/>
+
 >Concrete code is easy to understand, but costly to extend. Abstract code may initially seem more obscure but, once understood, is far easier to change.
 <br/>
+
 >Once you begin to treat your objects as if they are defined by their behavior rather than by their class, you enter a new realm of expressive design.
 
 **Recognizing Hidden Ducks**
