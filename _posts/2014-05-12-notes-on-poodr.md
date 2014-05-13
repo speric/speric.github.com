@@ -3,6 +3,9 @@ layout: post
 title: Notes On Practical OO Design In Ruby
 header_img: "colony.png"
 ---
+<p>Notes on <a href="http://www.poodr.com/">Practical Object Oriented
+Design in Ruby</a> by <a href="https://twitter.com/sandimetz">Sandi Metz</a>.</p>
+
 #### Chapter 1 - Object Oriented Design
 
 >The purpose of design is to allow you to do design later, and it's primary goal is to reduce the cost of change.
