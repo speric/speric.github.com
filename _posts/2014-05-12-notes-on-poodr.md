@@ -33,7 +33,6 @@ Design in Ruby</a> by <a href="https://twitter.com/sandimetz">Sandi Metz</a>.</p
 >A class should do the smallest possible useful thing.
 <br/>
 >Applications that are easy to change consist of classes that are easy to resue.
-
 <br/>
 >How can you determine if the `Gear` class contains behavior that belongs somewhere else? One way is to pretend that it's sentient and to interrogate it. If you rephrase every one of it's methods as a question, asking the question ought to make sense. For example, asking "Gear, what is your ratio?" seems perfectly reasonable..."Gear, what is your tire size?" is just downright ridiculous.
 
