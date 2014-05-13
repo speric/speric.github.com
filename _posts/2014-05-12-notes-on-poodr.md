@@ -43,7 +43,7 @@ Design in Ruby</a> by <a href="https://twitter.com/sandimetz">Sandi Metz</a>.</p
 Hide instance variables. [[Code example](https://github.com/skmetz/poodr/blob/master/chapter_2.rb#L61)]
 
 Hide data structures. [[Code example](https://github.com/skmetz/poodr/blob/master/chapter_2.rb#L123)]
-<br/>
+<br/><br/>
 #### Chapter 3 - Managing Dependencies
 
 >An object depends on another object if, when one object changes, the other might be forced to change in turn.
