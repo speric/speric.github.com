@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes On Practical OO Design In Ruby
+title: Notes On POODR
 header_img: "colony.png"
 ---
 <p>Notes on <a href="http://www.poodr.com/">Practical Object Oriented
