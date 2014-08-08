@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/speric
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ericfarkas.com
+  * I am speric (https://keybase.io/speric) on keybase.
+  * I have a public key with fingerprint 17C2 5F10 32BF FAF5 AF67  880A FFB0 589B 47F6 E4BC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "17c25f1032bffaf5af67880affb0589b47f6e4bc",
+            "host": "keybase.io",
+            "key_id": "ffb0589b47f6e4bc",
+            "uid": "416f9a5be67896e3f995083f9b9a3900",
+            "username": "speric"
+        },
+        "service": {
+            "hostname": "ericfarkas.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1407521399,
+    "expire_in": 157680000,
+    "prev": "bab8621f790581687161012e041b7b3e5ddf924d764c182584fbcfe0f868108f",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.3.1
+Comment: https://keybase.io/crypto
+
+yMHlAnicbVFbSBRRGN5NU3Yp0S6k6EMcwkzFZmbnupBJUghikQrrJdlmZs/RaXNm
+m72YqJWwlA9FmpUk0kP2EhgJWmqRSFhGyiqWWxhIpYvYg7SQWQnWGbG3zsvP+b/L
+/3/8o9tjTFZz0pWC0iLLozTz+EjUbyqJ7KhrAJLmqgf2BuCGGwUpajXUPbqi+oAd
+kJxMMYgkbJSEkIgYEbEczxMiQhLB8IJEc4iFtCSDbFCjeQ0FtpFEL8xRNNzDH6fi
+wt3/8P0bAE2ySBAZCWJfgYU2JAgMweMiCaJNIAiD6IW6KtZCzPZ6oK7IoCkb4F5A
+kaGxsTF4EzdQJOpu0Zsja7VY69E1nyZrZzFW4/N57IbUV+8xuHVQcm66OCVFdeHc
+WBCAulfRVGAnMVP2KYYtSRMcQ5E2QcgG8LxH0aFTMRgMx/IEfsYYGMCWkijxLEUi
+TsBhSZbnSJYkSAoSNClxkg0yLhcSKNrFsbRM8hTD00iSESQQz/IkwSNg5DqnasBu
+w2uK1UZipVoVfX4dgqYXI6diTWarKW7rFuNyJqsl8d89r8bE/47Jm6duvC8fFhKX
+FSFF8898i/ZG459degzevFyZfz16dE+QKL5gj9DhO/e6zhQfX3Gf/rPznaXkw9hA
+xoFdJwPBqmufuj15y7vTGhvGlx9Mdkh87ffWwrAjYXGpONrqDMVnlv2cSGKmu8O5
+k9OHnWvNrfv2busP/BqI9DRfrEpW0st+dBIV5tIh95FXGaG5yBdreLBoMRhlXbGl
+9z+uLywM9n1OqMzy9fcGQwOpU4fS7bdSZqbmTAcdi+0TFZkzPcf4jrTZltWUVUf5
+mJp8orAttfLu0nC5bb29r+LJWq4jrvSp2NK2v+BrKND5dvbyaEkjuDmUdd3y8HZ+
+ftfzv8wRFic=
+=dJ1a
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/speric
+
+==================================================================
