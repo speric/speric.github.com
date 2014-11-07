@@ -46,6 +46,6 @@ h2{
   display: inline;
   font-size: 26px;
 }
-.content{padding-top: 10px;}
+.content{padding-top: 10px; min-height: 500px;}
 .project-title{font-size:18px; font-weight: bold;}
 .project-container{padding-bottom:20px;}
