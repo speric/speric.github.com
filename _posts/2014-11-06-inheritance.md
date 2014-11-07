@@ -13,15 +13,15 @@ other "support incident". Your experience may be different. But there's
 something to be said for having all the methods that a class makes use of all in one place.</p>
 
 <p>It can be argued that composition also introduces the same type of
-problem, but I think it's mitigated for me by the fact that classes
+problem, but it's mitigated for me by the fact that classes
 which make use of composition tend to have shallower hierarchies. Most
 of the time you're just jumping to one file to look for a method
 definition, whereas with inheritance you are potentially jumping into a
 complex class hierarchy.</p>
 
-<p>I'm beginning to think that dependency injection is a great way to
+<p>I'm beginning to think that dependency injection is the best way to
 make potentially complex model interactions very simple. When you focus
-on message-based design, you then discover news ways to leverage Ruby's
+on message-based design, you quickly discover news ways to leverage Ruby's
 duck-typing capabilities in the service of writing small classes that do
 one thing and are simple to reason about. These types of classes are
 easy to change, and in my experience, easier for the person who didn't
