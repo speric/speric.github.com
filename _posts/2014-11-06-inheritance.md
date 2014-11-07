@@ -3,7 +3,7 @@ layout: post
 title: Inheritance
 header_img: "inheritance.png"
 ---
-<p>I'm coming to the opinion that, in Ruby, inheritance is never the first tool you should reach for when designing classes. This has been a difficult mental shift for me to make, coming to Ruby as I did from the Java world. Reading <a href="http://www.poodr.com/">Practical Object-Oriented Design in Ruby</a> earlier this year first put the idea in my head. But recent experience doing post-mortems on production code which made use of inheritance has made the abstract idea concrete.</p>
+<p>I'm coming to the opinion that, in Ruby, inheritance is never the first tool you should reach for when designing classes. This has been a difficult mental shift for me to make, coming to Ruby as I did from the Java world. Reading <i><a href="http://www.poodr.com/">Practical Object-Oriented Design in Ruby</a></i> earlier this year first put the idea in my head. But recent experience doing post-mortems on production code which made use of inheritance has made the abstract idea concrete.</p>
 
 <p>The major reason for this shift in thinking is that, in my
 experience, code which makes
