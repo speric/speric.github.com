@@ -11,7 +11,7 @@ personal and professional productivity:</p>
 
   <li><p><a href="http://rspec.info/">RSpec</a> and <a href="https://github.com/jnicklas/capybara">Capybara</a> for testing</p></li>
 
-  <li><p>[Foreman as process manager, Pow as DNS server and HTTP proxy](http://robots.thoughtbot.com/foreman-as-process-manager-pow-as-dns-server-and-http) for managing development processes</p></li>
+  <li><p><a href="http://robots.thoughtbot.com/foreman-as-process-manager-pow-as-dns-server-and-http">Foreman as process manager, Pow as DNS server and HTTP proxy</a> for managing development processes</p></li>
 
   <li><p><a href="https://trello.com/">Trello</a> for personal task
 management</p></li>
