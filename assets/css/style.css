@@ -1,4 +1,6 @@
-body{padding-bottom:40px;}
+body {
+  padding-bottom: 40px;
+}
 .jumbotron {
   position: relative;
 }
@@ -10,21 +12,26 @@ body{padding-bottom:40px;}
   line-height: 1;
   font-family: "Brawler", serif;
 }
-.jumbotron a{color: #333333;}
-.lead a{color: #0088cc;}
-
+.jumbotron a {
+  color: #333333;
+}
+.lead a {
+  color: #0088cc;
+}
 .jumbotron p {
   margin-bottom: 18px;
   font-weight: 300;
 }
-.post h1{
+.post h1 {
   font-family: "Brawler", serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
-p{font-size:16px; line-height: 24px;}
-
-h2{
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+h2 {
   font-family: "Brawler", serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -32,11 +39,11 @@ h2{
 .hiro {
   background-color: #2B2B2B;
   background-size: cover;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
   height: 200px;
   box-shadow: inset 0 0 30px rgba(0,0,0,.90);
-}         
-.container{}
+}
+.container {}
 .social-icons{
   padding: 0;
   padding-top: 8px;
@@ -46,6 +53,14 @@ h2{
   display: inline;
   font-size: 26px;
 }
-.content{padding-top: 10px; min-height: 500px;}
-.project-title{font-size:18px; font-weight: bold;}
-.project-container{padding-bottom:20px;}
+.content {
+  padding-top: 10px;
+  min-height: 500px;
+}
+.project-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.project-container{
+  padding-bottom: 20px;
+}
