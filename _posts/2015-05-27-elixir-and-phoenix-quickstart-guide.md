@@ -3,7 +3,7 @@ layout: post
 title: Elixir and Phoenix Quickstart Guide 
 header_img: "shop.jpg"
 ---
-<p>I've begun tinkering with <a href="http://elixir-lang.org/">Elixir</a> and the <a href="http://www.phoenixframework.org/">Phoenix framework</a>. The guides on the Phoenix site seem to be slightly out of date, so I thought it'd be helpful to post a quick start guide. I am running OSX 10.10.3.</p>
+<p>I've begun tinkering with <a href="http://elixir-lang.org/">Elixir</a> and the <a href="http://www.phoenixframework.org/">Phoenix framework</a>. The guides on the Phoenix site seem to be slightly out of date, so I thought it'd be helpful to post a quick start guide. I am running OS X 10.10.3.</p>
 
 <h4>1 - Install Elixir via Homebrew</h4>
 <pre>$ brew install elixir</pre>
