@@ -3,7 +3,19 @@
 <head>
   <title>{{ page.title }}</title>
   <meta name="author" content="Eric Farkas" />
-  <meta name="description" content="Writings by Eric Farkas. Subject matter will vary." />
+  <meta name="description" content="Writings by Eric Farkas." />
+  <meta name="twitter:site" content="@ericfarkas" />
+  <meta name="twitter:creator" content="@ericfarkas" />
+  <meta property="og:title" content="{{ page.title }}" />
+{% if page.url %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+{% endif %}
+{% if page.header_img %}
+  <meta property="og:image" content="http://ericfarkas.com/assets/images/headers/{{ page.header_img }}" />
+{% endif %}
+{% if page.description %}
+  <meta property="og:description" content="{{ page.description }}" />
+{% endif %}
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" media="screen, projection" />
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="screen, projection" />
   <link rel="stylesheet" href="/assets/css/pygments.css" type="text/css" />
