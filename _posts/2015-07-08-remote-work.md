@@ -14,13 +14,13 @@ description: Reflections on two years of working remotely.
 full-time remote work), which puts me in a good position to share my experiences as they relate to the above questions.</p>
 
 <h3>Building An Ideal Desk/Office</h3>
-<p>My wife and I have four children, and we homeschool, so the house is full all day, everyday. My response will be therefore be affected by the fact that my house is a hive of activity.</p>
+<p>My wife and I have four children, and we homeschool, so the house is full all day, everyday. My response is therefore affected by the fact that my house is a hive of activity.</p>
 
-<p>The goal here is to have a space where you can work undistracted. To me that means you'll want a proper office, with a door that locks. The understanding among your family has to be that the office is your space to work, and when the door is closed, that means no interruptions. The lock is for the times when people forget what the closed door means. And they will forget.</p>
+<p>The goal here is to have a space where you can work undistracted. To me that means you'll want a proper office with a door that locks. The understanding among your family has to be that the office is your space to work. When the door is closed, it means no interruptions. The lock is for the times when people forget what the closed door means. And they will forget.</p>
 
 <p>The other thing about a room dedicated to work is that it allows you
 to mentally segment home life and work life. I don't always work in my
-office when I'm home (more on that in a bit), but even so, I know when I
+office when I'm home (more on that in a bit). But even so, I know when I
 am done for the day, I leave my office and shut the door, and that's
 that.</p>
 
@@ -28,15 +28,14 @@ that.</p>
 customize your workspace. An ideal desk and office setup is relative to
 what inspires you. What helps you focus and get "in the zone"? For
 example, I like to have a view of the outside world when I work. I also try to
-keep my desk free of non work-related things like bills and and
-mail, which I find distracting. I'll get to the mail later; for now, I'm
+keep my desk free of non work-related things like bills and
+mail. I find those sorts of things distracting. I'll get to the mail later; for now, I'm
 working.</p>
 
 <center><div><img
 src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11254303_850487341672995_1905324248_n.jpg"/><p><i>A view of the yard, and a clean desk</i></p></div></center>
 
-<p>The perfect desk/office setup is whatever helps you focus. I also
-recommend investing in a good pair of headphones or a headset. I use <a
+<p>I recommend investing in a good pair of headphones or a headset. I use <a
 href="http://www.amazon.com/Sony-MDRV6-Studio-Monitor-Headphones/dp/B00001WRSJ">Sony MDRV6 Studio Monitor Headphones</a>. I find that listening to music through headphones helps me focus more than listening through external speakers. YMMV. Here are two playlists I listen to when hacking:</p>
 <ul>
   <li><p><a
@@ -45,17 +44,15 @@ href="https://open.spotify.com/user/speric/playlist/50Pk2JxEQXvGckPb4bbvbN">http
 href="https://open.spotify.com/user/speric/playlist/6DSBFarhDIkxfzIvZLbHYt">https://open.spotify.com/user/speric/playlist/6DSBFarhDIkxfzIvZLbHYt</a></p></li>
 </ul>
 
-<p>Also, I find it important to switch up my work location. I work in my
+<p>I like to switch up my work location. I work in my
 office 90% of the time, but sometimes I work in my living room, or at the local Starbucks, or even the pub!</p>
 
 <center><div><img
 src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/10707038_1514120335491692_639196564_n.jpg"/><p><i>Sometimes you need to put your feet up</i></p></div></center>
 
-<p>Switching up work locations like this helps me from getting into a
-rut. Working remotely, I don't have the face-to-face communication with
-co-workers, and so I miss out on things like going to a new place
-everyday to get lunch, or running out to get a coffee mid-afternoon,
-things I was accustomed to when working in an office. Changing work
+<p>Switching up work locations like this keeps me from getting into a
+rut. Working remotely, I don't have face-to-face communication with
+co-workers. I miss out on things like going to a new place to get lunch, or running out to get a coffee mid-afternoon, things I was accustomed to when working in an office. Changing work
 locations approximates this experience, however poorly.</p>
 
 <h3>Stepping Up Communication and Collaboration</h3>
@@ -117,5 +114,4 @@ the time you have.</p>
 <p>Remote work is fun, but also challenging. Unfortunately I've seen
 people who can't handle the responsibility of working remotely. And
 that's very sad to me, because it's such a great opportunity for so many
-things. So my final piece of advice to
-remote workers is this: communicate well, work hard, and enjoy yourself.</p>
+things. So communicate well, work hard, and enjoy yourself.</p>
