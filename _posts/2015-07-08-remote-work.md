@@ -52,7 +52,7 @@ src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/10707038_
 
 <p>Switching up work locations like this keeps me from getting into a
 rut. Working remotely, I don't have face-to-face communication with
-co-workers. I miss out on things like going with co-workers to a new place to get lunch, or running out to get a coffee mid-afternoon, things I was accustomed to when working in an office. Changing work
+co-workers. I miss out on things like going with co-workers to a new place to get lunch, or grabbing a coffee mid-afternoon, things I was accustomed to when working in an office. Changing work
 locations approximates this experience, however poorly.</p>
 
 <h3>Stepping Up Communication and Collaboration</h3>
