@@ -51,10 +51,6 @@ office 90% of the time, but sometimes I work in my living room, or at the local 
 <center><div><img
 src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/10707038_1514120335491692_639196564_n.jpg"/><p><i>Sometimes you need to put your feet up</i></p></div></center>
 
-<p>When it's nice out, work in the back yard:</p>
-<center><div><img
-src="https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xap1/t51.2885-15/929217_269130189953238_1615844018_n.jpg"/><p><i>Don't waste a sunny day</i></p></div></center>
-
 <p>Switching up work locations like this helps me from getting into a
 rut. Working remotely, I don't have the face-to-face communication with
 co-workers, and so I miss out on things like going to a new place
