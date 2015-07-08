@@ -115,3 +115,7 @@ the time you have.</p>
 people who can't handle the responsibility of working remotely. And
 that's very sad to me, because it's such a great opportunity for so many
 things. So communicate well, work hard, and enjoy yourself.</p>
+
+<h3>See Also</h3>
+<p><a
+href="http://cultivatenow.com/10-commandments-for-remote-working/">10 Commandments for Remote Working</a></p>
