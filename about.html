@@ -3,17 +3,93 @@ layout: layout
 title: "About | Eric Farkas"
 header_img: "about.jpg"
 ---
-<h2>About Me</h2>
+<h2>About</h2>
 <br/>
-<div class="row">
-  <div class="span3">
+<!--<div class="row">
+  <div class="span2">
     <img src="/assets/images/profile.png" class="img-polaroid"/>
   </div>
   <div class="span7">
-    <p>I live on Long Island with my wife and 4 children, where I work remotely for <a href="http://chargify.com">Chargify</a> as a Rails developer.  On nights and weekends I hack on <a href="https://talentsoup.com">TalentSoup</a>.</p>
-    
-    <p>I'm also an elder in the <a href="http://opc.org">Orthodox Presbyterian Church</a>.</p>
+    <p>I'm a software developer working remotely at <a href="https://chargify.com">Chargify</a>, mainly with Ruby on Rails. I live on Long Island, New York, with my wife and children.</p>
+  </div>
+</div>-->
+<br/>
+<div class="row">
+  <div class="span9">
+    <h2>Notable Projects</h2>
+    <br/>
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://talentsoup.com">TalentSoup</a></h3>
+        <p>Sole developer for TalentSoup, a marketplace connecting talent (actors, actresses, models) with producers of advertising imagery. Built using Rails (from 2.3 to 3.2), MySQL, Apache + Phusion Passenger. This was the first big app I built with Rails. I learned how to manage a growing codebase, implement subscription billing (using Chargify of course), use S3 for photo hosting, and set up Graphite + statsd for analytics. In addition, I was responsible for all server and database administration.</p>
+      </div>
+    </div>
 
-    <p>You can find me on <a href="http://twitter.com/ericfarkas">Twitter</a> or send me an <a href="mailto:eric@prudentiadigital.com">email</a>.</p>
+    <div class="row">
+      <div class="span9">
+        <h3>Creative Commissary</h3>
+        <p>Built for TalentSoup.  A project management app for photo producers. My first attempt at a multi-tenant architecture (ala Basecamp). Similar stack to TalentSoup (Rails 3.2, MySQL, etc.) but running on nginx instead of Apache.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://github.com/speric/kindle-highlights">kindle-highlights</a></h3>
+        <p>I love reading, and collecting quotes. The highlighting feature on the Kindle is nice, but there's no API to get at your own highlights, so I built a Ruby gem to scrape Amazon's Kindle site for my highlights.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3>Sensus Divinitatis News</h3>
+        <p>Essentially a Hacker News clone for the Christian community to discuss trends in theology, apologetics, and church planting. Built with Rails 3.2. The fun parts about this app were implementing a time-based ranking algorithm, and writing code that "posted back" to blogs that were submitted to SD News.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3>Sensus Divinitatis Publishing</h3>
+        <p>A publishing company in the Scottish Calvinist tradition. We published <i><a href="http://www.amazon.com/The-Kingdom-Has-Drawn-Near/dp/0578020475">The Kingdom Has Drawn Near: Studies In The Gospel Jesus Preached</a></i> and are working on another volume.
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="span9">
+        <h3><a href="http://rivendellcraftbrewery.com">Rivendell Craft Brewery</a></h3>
+        <p>The love of craft beer taken a little too far. Homebrewing is a fun hobby, and has certainly enhanced my enjoyment of beer.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://chargify.com/blog/shopify-orders/">Chargify Shopify Integration v2</a></h3>
+        <p>Enhanced Chargify's existing Shopify integration by adding the ability for Chargify to automatically create new Shopify orders for merchants whenever a new customer signed up to a plan, or their subscription renewed. This was accomplished with a combination of Chargify's own <a href="https://docs.chargify.com/webhooks"/>webhooks</a> and Shopify's Orders API. The integration is a separate app that, when enabled for a merchant, would receive webhooks whenever a Chargify statement was settled for their site, and then enqueue them for processing. Once processed, the webhook data would be transformed into the body of a proper Shopify Order, and created via the API.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://www.chargify.com/blog/notifications-dashboard/">Chargify Notifications Dashboard</a></h3>
+        <p>An internal API and external interface that allows Chargify admins to send notifications to merchants with various levels of granularity (e.g. "send this message to all admins of Acme Online") or ("send this message to the owner of every site in the Chargify database"). Useful for communicating things like problems with subscription processing, new features, or upcoming API changes.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://www.chargify.com/blog/editable-custom-fields/">Chargify Editable Custom Fields</a></h3>
+        <p>Gave merchants a UI for managing metadata for a given subscription. A lot of Javascript, which I enjoyed writing.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span9">
+        <h3>Chargify Gateways</h3>
+        <p>Added support for the Cybersource and Chase Paymentech gateways. This involves working with ActiveMerchant.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://www.chargify.com/blog/new-sales-reports-early-access/">Chargify Sales Report</a></h3>
+        <p>A dashboard designed to show the sales volume for merchant's products and components over time. This was my first time working with Elasticsearch in a non-trivial context.</p>
+      </div>
+    </div>
   </div>
 </div>
