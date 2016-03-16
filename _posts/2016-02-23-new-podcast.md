@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Podcast
-header_img: "things.jpg"
+header_img: "podcast.png"
 description: "Introducing my new podcast, 'Between Two
 Infinites'."
 ---
