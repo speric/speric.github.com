@@ -7,7 +7,7 @@ description: "What I learned this week."
 <p><b><a href="https://kapeli.com/dash">Dash</a></b><br/>
 This app is already indispensable to my workflow. Just check it out.</p>
 
-<p><b><a href="https://en.wikipedia.org/wiki/Monotonic_function">Monotonic functions</a></b></br>
+<p><b><a href="https://en.wikipedia.org/wiki/Monotonic_function">Monotonic functions</a></b><br/>
 A function is called monotonic if and only if it is either entirely increasing or decreasing.</p>
 
 <p><b><a
