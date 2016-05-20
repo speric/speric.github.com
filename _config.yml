@@ -1,7 +1,5 @@
-markdown: rdiscount
+markdown: kramdown
 pygments: true
 permalink: /posts/:title
 auto: true
 url: http://ericfarkas.com
-rdiscount:
-  extensions: [smart]
