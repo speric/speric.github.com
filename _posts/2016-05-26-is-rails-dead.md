@@ -3,6 +3,7 @@ layout: post
 title: "Is Rails Dead?"
 header_img: "street.jpg"
 description: "Is Rails really dead?"
+hn: https://news.ycombinator.com/item?id=11779691
 ---
 <blockquote>
 <p>
