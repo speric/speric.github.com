@@ -1,5 +1,6 @@
 body {
   padding-bottom: 40px;
+  font-size: 18px;
 }
 .jumbotron {
   position: relative;
@@ -63,4 +64,8 @@ h2 {
 }
 .project-container{
   padding-bottom: 20px;
+}
+.highlighter-rouge{
+  margin-top: 15px;
+  margin-bottom: 20px;
 }

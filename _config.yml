@@ -1,5 +1,4 @@
 markdown: kramdown
 highlighter: rouge
 permalink: /posts/:title
-auto: true
 url: http://ericfarkas.com
