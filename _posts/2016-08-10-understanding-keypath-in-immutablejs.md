@@ -7,7 +7,7 @@ description: "Understanding keyPath in ImmutableJS"
 [ImmutableJS](https://facebook.github.io/immutable-js/) is
 a neat library, especially when used in combination with [Redux](https://github.com/reactjs/redux). I'm not ashamed to
 admit, though, that I found the docs confusing at first. For example,
-look at the method signature for the `Map#updateIn()`:
+look at the method signature for `Map#updateIn()`:
 <br/><br/>
 
 
@@ -63,22 +63,22 @@ To get all the subscriptions for a given endpoint, we use `Map#get` as
 follows:
 
 ```javascript
-let subscriptions = endpoints.get("abc-123");
-// keyPath = ["abc-123"]
+subscriptions = endpoints.get("abc-123");
+keyPath = ["abc-123"]
 ```
 
 Since `subscriptions` is now a `List`, we can get the first element using `List#get`, passing it the index of the element we want to access:
 
 ```javascript
-let subscription = subscriptions.get(0);
-// keyPath = [0]
+subscription = subscriptions.get(0);
+keyPath = [0]
 ```
 
 We could do this in one shot:
 
 ```javascript
-let subscription = endpoints.get("abc-123").get(0);
-// keyPath = ["abc-123", 0]
+subscription = endpoints.get("abc-123").get(0);
+keyPath = ["abc-123", 0]
 ```
 
 What's neat is that we can construct a `keyPath` down to an attribute of
@@ -86,8 +86,8 @@ an element. Say we wanted to get the `enabled` attribute of the above
 endpoint:
 
 ```javascript
-let enabled = endpoints.get("abc-123").get(0).get('enabled');
-// keyPath = ["abc-123", 0, "enabled"]
+enabled = endpoints.get("abc-123").get(0).get('enabled');
+keyPath = ["abc-123", 0, "enabled"]
 ```
 
 Now that we know how to construct a `keyPath` to any point in a deeply
