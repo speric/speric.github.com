@@ -3,6 +3,7 @@ layout: post
 title: "Understanding updateIn & keyPath in ImmutableJS"
 header_img: "dusk.jpg"
 description: "Understanding keyPath in ImmutableJS"
+hn: https://news.ycombinator.com/item?id=12277037
 ---
 [ImmutableJS](https://facebook.github.io/immutable-js/) is
 a neat library, especially when used in combination with [Redux](https://github.com/reactjs/redux). I'm not ashamed to
