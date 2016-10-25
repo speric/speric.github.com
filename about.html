@@ -41,6 +41,48 @@ header_img: "about.jpg"
 
     <div class="row">
       <div class="span9">
+        <h3><a href="https://www.chargify.com/blog/configuring-multiple-webhook-endpoints/">Chargify Multiple Webhook Endpoint Configurations</a></h3>
+        <p>Allows merchants to configure the webhook events each endpoint receives, individually. The previous implementation had one list of subscribed webhook events, and each webhook received the same events. My first production ReactJS code.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://chargify.com/blog/shopify-orders/">Chargify Shopify Integration v2</a></h3>
+        <p>Enhanced Chargify's existing Shopify integration by adding the ability for Chargify to automatically create new Shopify orders for merchants whenever a new customer signed up to a plan, or their subscription renewed. This was accomplished with a combination of Chargify's own <a href="https://docs.chargify.com/webhooks"/>webhooks</a> and Shopify's Orders API. The integration is a separate app that, when enabled for a merchant, would receive webhooks whenever a Chargify statement was settled for their site, and then enqueue them for processing. Once processed, the webhook data would be transformed into the body of a proper Shopify Order, and created via the API.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://www.chargify.com/blog/notifications-dashboard/">Chargify Notifications Dashboard</a></h3>
+        <p>An internal API and external interface that allows Chargify admins to send notifications to merchants with various levels of granularity (e.g. "send this message to all admins of Acme Online") or ("send this message to the owner of every site in the Chargify database"). Useful for communicating things like problems with subscription processing, new features, or upcoming API changes.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://www.chargify.com/blog/editable-custom-fields/">Chargify Editable Custom Fields</a></h3>
+        <p>Gave merchants a UI for managing metadata for a given subscription. A lot of Javascript, which I enjoyed writing.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3>Chargify Gateways</h3>
+        <p>Added support for the Cybersource and Chase Paymentech gateways. This involves working with ActiveMerchant.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <h3><a href="https://www.chargify.com/blog/new-sales-reports-early-access/">Chargify Sales Report</a></h3>
+        <p>A dashboard designed to show the sales volume for merchant's products and components over time. This was my first time working with Elasticsearch in a non-trivial context.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
         <h3>Sensus Divinitatis News</h3>
         <p>Essentially a Hacker News clone for the Christian community to discuss trends in theology, apologetics, and church planting. Built with Rails 3.2. The fun parts about this app were implementing a time-based ranking algorithm, and writing code that "posted back" to blogs that were submitted to SD News.</p>
       </div>
@@ -52,49 +94,11 @@ header_img: "about.jpg"
         <p>A publishing company in the Scottish Calvinist tradition. We published <i><a href="http://www.amazon.com/The-Kingdom-Has-Drawn-Near/dp/0578020475">The Kingdom Has Drawn Near: Studies In The Gospel Jesus Preached</a></i> and are working on another volume.
       </div>
     </div>
-    
+
     <div class="row">
       <div class="span9">
         <h3><a href="http://rivendellcraftbrewery.com">Rivendell Craft Brewery</a></h3>
         <p>The love of craft beer taken a little too far. Homebrewing is a fun hobby, and has certainly enhanced my enjoyment of beer.</p>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="span9">
-        <h3><a href="https://chargify.com/blog/shopify-orders/">Chargify Shopify Integration v2</a></h3>
-        <p>Enhanced Chargify's existing Shopify integration by adding the ability for Chargify to automatically create new Shopify orders for merchants whenever a new customer signed up to a plan, or their subscription renewed. This was accomplished with a combination of Chargify's own <a href="https://docs.chargify.com/webhooks"/>webhooks</a> and Shopify's Orders API. The integration is a separate app that, when enabled for a merchant, would receive webhooks whenever a Chargify statement was settled for their site, and then enqueue them for processing. Once processed, the webhook data would be transformed into the body of a proper Shopify Order, and created via the API.</p>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="span9">
-        <h3><a href="https://www.chargify.com/blog/notifications-dashboard/">Chargify Notifications Dashboard</a></h3>
-        <p>An internal API and external interface that allows Chargify admins to send notifications to merchants with various levels of granularity (e.g. "send this message to all admins of Acme Online") or ("send this message to the owner of every site in the Chargify database"). Useful for communicating things like problems with subscription processing, new features, or upcoming API changes.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span9">
-        <h3><a href="https://www.chargify.com/blog/editable-custom-fields/">Chargify Editable Custom Fields</a></h3>
-        <p>Gave merchants a UI for managing metadata for a given subscription. A lot of Javascript, which I enjoyed writing.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span9">
-        <h3>Chargify Gateways</h3>
-        <p>Added support for the Cybersource and Chase Paymentech gateways. This involves working with ActiveMerchant.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span9">
-        <h3><a href="https://www.chargify.com/blog/new-sales-reports-early-access/">Chargify Sales Report</a></h3>
-        <p>A dashboard designed to show the sales volume for merchant's products and components over time. This was my first time working with Elasticsearch in a non-trivial context.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span9">
-        <h3><a href="https://www.chargify.com/blog/configuring-multiple-webhook-endpoints/">Chargify Multiple Webhook Endpoint Configurations</a></h3>
-        <p>Allows merchants to configure the webhook events each endpoint receives, individually. The previous implementation had one list of subscribed webhook events, and each webhook received the same events. My first production ReactJS code.</p>
       </div>
     </div>
   </div>
