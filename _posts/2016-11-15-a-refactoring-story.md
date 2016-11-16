@@ -124,7 +124,7 @@ itself (or another class), but not in the controller.
   <li>
     <p>
       The two <code>HTTParty</code> calls to the external Commissary service means the controller
-      knows everything about where the endpoints are, and what to do in case of an error. This isn't the worst approach, but could improved by moving these calls to a separate class. Doing so would also give us the benefit of being able to use those classes in other places.
+      knows everything about where the endpoints are, and what to do in case of an error. This isn't the worst approach, but could be improved by moving these calls to a separate class. Doing so would also give us the benefit of being able to use those classes in other places.
     </p>
   </li>
 </ul>
@@ -278,9 +278,11 @@ end
   This is a simple class, but there's more going on that might initially appear. The
   first is that there's an <code>attr_accessor</code> for an <code>http_client</code>. You
   can't initialize the class with a custom <code>http_client</code> (the "default" is
-  <code>HTTParty</code>, but you can set one after initialization. I can't take credit
+  <code>HTTParty</code>), but you can set one after initialization. I can't take credit
   for this pattern; I learned it (and many other things!) from
-  <a href="https://twitter.com/brandonhilkert">Brandon Hilkert</a>.
+  <a href="https://twitter.com/brandonhilkert">Brandon Hilkert</a>. The
+motiviation for using this pattern will become apparent in the test
+below.
 </p>
 
 <p>
@@ -344,7 +346,7 @@ end
   We've "mocked" an HTTP request to an external service without using
   a gem like VCR or Webmock. The disadvantage to this
   approach is that, if the response from the Commissary service changes, I
-  can't just blow away my cassettes if I were using VCR, regenerate them, and fix my
+  can't just blow away my cassettes, as I could if I were using VCR, regenerate them, and fix my
   tests. I'll have to fix my fake client(s) also. However, weighed against the
   overhead of adding another gem to my app, it's a tradeoff I am willing
   to make. Additionally, in writing a simple mock HTTP client like this,
@@ -354,7 +356,7 @@ end
 </p>
 
 <p>
-  The other interesting thing in <code>Commissary::OpenProjects</code> that's
+  The other interesting thing in <code>Commissary::OpenProjects</code> 
   is the <code>fetch</code> class method, which is just:
 </p>
 
