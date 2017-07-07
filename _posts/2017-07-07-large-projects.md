@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working On Large Features"
-header_img: "crane.png"
+header_img: "crane.jpg"
 description: "Lessons learned leading and working on large features."
 ---
 
