@@ -33,11 +33,11 @@ Doing this accomplishes two things. One, it frees you from having to keep the en
 
 As people a lot smarter than I [have](https://blog.newrelic.com/2012/11/14/long-running-branches-considered-harmful/) [argued](https://martinfowler.com/bliki/FeatureBranch.html), long-running feature branches can be painful. But sometimes you can't avoid them. What I look for in the up-front planning phase are opportunities to get code into master as soon as possible. This way, if we do need a long-running feature branch, it will be as small and easy to review as possible.
 
-With enough planning, database migrations are good candidates for early merging. Code refactoring that makes a path for new behavior is also a good candidate. For a recent feature, we shipped a refactoring of core business logic to production a month before the rest of the feature. In this way, we proved that the changes introduced in the new feature would be "backwards compatible". It gave the rest of the team a comfort level with the new feature that they would have otherwise not have had. Other candidates are UI changes that behind a feature flag, or new API endpoints that are not public yet.
+With enough planning, database migrations are good candidates for early merging. Code refactoring that makes a path for new behavior is also a good candidate. For a recent feature, we shipped a refactoring of core business logic to production a month before the rest of the feature. In this way, we proved that the changes introduced in the new feature would be "backwards compatible". It gave the rest of the team a comfort level with the new feature that they would have otherwise not have had. Other candidates are UI changes that are behind a feature flag, and new API endpoints that are not public yet.
 
-An added benefit of going to master as soon as possible with smaller code changes is that team members not working on the feature need less context to review pull requests. Huge pull requests are hard to review, an often become a matter of "if it works, ship it!". Smaller PRs are easier to review. Teammates don't need to know the entire scope of the feature to review the change.
+An added benefit of going to master as soon as possible with smaller code changes is that team members not working on the feature need less context to review pull requests. Huge pull requests are hard to review, and often become a matter of "if it works, ship it!". Smaller PRs are easier to review. Teammates don't need to know the entire scope of the feature to review the change.
 
-The faster you can get into master, and deployed to production the faster non-dev feature stakeholders can start using the feature. Again, I am standing on the shoulders of giants when I say this: the faster you can get to the point where you're getting real user feedback, the better. My own experience has borne this out.
+The faster you can get into master and deployed to production, the faster non-dev feature stakeholders can start using the feature. Again, I am standing on the shoulders of giants when I say this: the faster you can get to the point where you're getting real user feedback, the better. My own experience has borne this out.
 
 What I have found is that the more I try to ship things earlier, the better I get at identifying _what_ to ship earlier. There doesn't seem to be a hard and fast rule here. You're going to need to experiment. I imagine much of your success in this area will depend on team culture and operational setup.
 
@@ -53,7 +53,7 @@ In chapter 12 of the 1950 edition of [_The Armed Forces Officer_](https://www.am
 
 > Progress comes of making the most of strengths rather than looking for ways to repair weaknesses. This is true in things both large and small.
 
-Marshall was speaking in a military context. The stakes there are much higher than shipping software. But the thought is an intriguing one.  I've come to understand that quote to mean this: when it comes time for battle, double down on your strengths. The time for self improvement, as an individual or as a group, is not on the battleground, but in the barracks. You will learn on the battleground, but that's not your main purpose.
+Marshall was speaking in a military context. The stakes there are much higher than shipping software. But the thought is an intriguing one.  I've come to understand that quote to mean this: when it comes time for battle, double down on your strengths. The time for self improvement, as an individual or as a group, is not on the battleground. You will learn on the battleground, but that's not your main purpose.
 
 Applying that idea to teams doing software development requires a delicate balance. Developers always want to work with new things and learn. But when working on large features that have business-impacting scope, the idea seems to be that developers should work on tasks that cater to their strengths. 
 
@@ -69,7 +69,7 @@ Process for process sake is a waste of time. Process that gets in the way of shi
 
 We work hard to keep our Trello board up-to-date. If you are working on a card, assign it to yourself and move it to the "Doing" column. Move it to "Done" after merging the pull request. If there's a discussion going on in Slack which results in a new task, put it in Trello. Keep checklists.
 
-Doing these things allow us to actually focus on writing code. I don't need to worry about remembering that thing we were talking about  on standup because I created a card for it. I don't need to remember what I am working on next. There are cards already assigned to me, or I can grab the next one from the "To Do" list. If a manager asks me about the status of the project, a glance at Trello will give them all the information they need.
+Doing these things allow us to actually focus on writing code. I don't need to worry about remembering that thing we were talking about on standup because I created a card for it. I don't need to remember what I am working on next. There are cards already assigned to me, or I can grab the next one from the "To Do" list. If a manager asks me about the status of the project, a glance at Trello will give them all the information they need.
 
 The actual tool you use to organize is not as important as the fact of staying organized. I cannot stress enough how important it is to have an up-to-date task list that is accessible by any team member. I've never regretted taking the time to create and maintain such a list. 
 
