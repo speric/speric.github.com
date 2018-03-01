@@ -182,3 +182,25 @@ header_img: "institutes.jpg"
 
 > All this being admitted, it will be beyond dispute, that free will does not enable any man to perform good works, unless he is assisted by grace; indeed, the special grace which the elect alone receive through regeneration.
 
+> “That the will is indeed free, but not freed—free of righteousness, but enslaved to sin.
+
+> What, then, is meant by Cyprian in the passage so often lauded by Augustine,9 “Let us glory in nothing, because nothing is ours,” unless it be, that man being utterly destitute, considered in himself, should entirely depend on God?
+
+> If there is nothing good in us; if man, from the crown of the head to the sole of the foot, is wholly sin; if it is not even lawful to try how far the power of the will extends—how can it be lawful to share the merit of a good work between God and man?
+
+> he who is most deeply abased and alarmed, by the consciousness of his disgrace, nakedness, want, and misery, has made the greatest progress in the knowledge of himself.
+
+> Man is in no danger of taking too much from himself, provided he learns that whatever he wants is to be recovered in God.
+
+> And, assuredly, whenever our minds are seized with a longing to possess a somewhat of our own, which may reside in us rather than in God, we may rest assured that the thought is suggested by no other counselor than he who enticed our first parents to aspire to be like gods, knowing good and evil.
+
+> All the weapons of impiety must be bruised, and broken, and burnt in the fire; you must remain unarmed, having no help in yourself. The more infirm you are, the more the Lord will sustain you.
+
+> As our insignificance is his exaltation, so the confession of our insignificance has its remedy provided in his mercy.
+
+> I do not ask, however, that man should voluntarily yield without being convinced, or that, if he has any powers, he should shut his eyes to them, that he may thus be subdued to true humility; but that getting quit of the disease of self-love and ambition (philautia kai philoneikia), under the blinding influences of which he thinks of himself more highly than he ought to think, he may see himself as he really is, by looking into the faithful mirror of Scripture.
+
+> the knowledge of God and of his will, and the means of framing the life in accordance with them.
+
+> Since man is by nature a social animal, he is disposed, from natural instinct, to cherish and preserve society; and accordingly we see that the minds of all men have impressions of civil order and honesty.
+
