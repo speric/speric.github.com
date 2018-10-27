@@ -38,7 +38,7 @@ The [docs](https://git-scm.com/docs/git-remote#git-remote-empruneem) for this co
 
 > Deletes stale references associated with `<name>`
 
-In this case, we want to delete state references associated with the remote `origin`.
+In this case, we want to delete stale references associated with the remote `origin`.
 
 The best way to see what this command does is to compare before/after. Here is what `git branch -vv` looks like _before_ pruning:
 
