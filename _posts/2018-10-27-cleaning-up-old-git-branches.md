@@ -180,3 +180,42 @@ deleting remote branches after they're merged.
 
 
 Lastly, a shameless plug for my [dotfiles](https://github.com/speric/dotfiles).
+
+### UPDATE
+
+Shortly after this post went live, [@pengwynn](https://twitter.com/pengwynn) pointed me to a post he wrote
+on [Extending the Command Line](https://wynnnetherland.com/journal/extending-the-command-line/). After digesting
+that post, I've tweaked my approach here.
+
+The big idea is that any file in your `PATH` that follows the `git-` convention will become a new Git command.
+
+With that knowledge, I added my dotfiles `bin` folder to the `PATH` in my `.zshrc`:
+
+```zsh
+path+=(
+  ${HOME}/dev/dotfiles/bin
+)
+```
+
+([https://github.com/speric/dotfiles/blob/5a2135c5fafb0dd783c1c81186b2f1e412897caf/zshrc#L14](commit))
+
+Then, I moved the body of `clean_branches` to a file called `git-cleanup`:
+
+```zsh
+# !/bin/sh
+# Usage: git-cleanup
+# Delete any local branches whose remote has been deleted
+
+git remote prune origin
+git branch -vv | grep "origin/.*: gone]" | awk '{print $1}' | xargs git branch -D
+```
+
+I then deleted the `clean_branches` function from my `.zshrc`.
+
+Now, in any repository, I can do:
+
+```zsh
+git cleanup
+```
+
+And our old branches will be deleted.
