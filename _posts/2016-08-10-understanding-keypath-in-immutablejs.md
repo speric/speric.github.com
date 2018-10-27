@@ -27,7 +27,7 @@ Consider the following data structure, which is a `Map` of `endpoints`, keyed on
 given event (`enabled: true|false`):
 
 
-```
+```js
 const endpoints = fromJS({
   "abc-123": [
     {
