@@ -112,7 +112,7 @@ grep "origin/.*: gone]"
 ```
 
 The output of `git branch -vv` will be piped to the `grep` command above. This command will [grep](http://man7.org/linux/man-pages/man1/grep.1.html)
-that output for any lines which take the form of `origin/branch-name:` and end with `gone]`.
+that output for any lines which contain `origin/some-branch-name: gone]`.
 
 ```zsh
 > git branch -vv | grep "origin/.*: gone]"
