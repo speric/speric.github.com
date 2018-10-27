@@ -179,4 +179,4 @@ I should also note that this kind of "workflow" only makes sense where you (or y
 deleting remote branches after they're merged.
 
 
-Lastly, a shameless plug for for [dotfiles](https://github.com/speric/dotfiles).
+Lastly, a shameless plug for my [dotfiles](https://github.com/speric/dotfiles).
