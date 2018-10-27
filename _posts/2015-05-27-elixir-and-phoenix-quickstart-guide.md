@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elixir and Phoenix Quickstart Guide 
+title: Elixir and Phoenix Quickstart Guide
 header_img: "shop.jpg"
 description: Get up and running with Elixir and Phoenix on OS X 10.10.3.
 ---
@@ -26,7 +26,7 @@ description: Get up and running with Elixir and Phoenix on OS X 10.10.3.
 
 <h4>4 - Create your Phoenix app</h4>
 <p>By default, your app will be created in the same directory you're in
-when you run this command:</p> 
+when you run this command:</p>
 
 <pre>$ mix phoenix.new phoenix_test_app</pre>
 
@@ -43,6 +43,6 @@ $ mix phoenix.server</pre>
 
 <p>Open your browser and visit <a href="http://localhost:4000">http://localhost:4000</a>. You should see the following:</p>
 
-<center><div><img src="/assets/images/phoenix.png" class="img-polaroid"/></center>
+<center><div><img src="/assets/images/phoenix.png" class="img-polaroid"/></div></center>
 
 

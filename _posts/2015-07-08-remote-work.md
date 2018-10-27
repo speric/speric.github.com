@@ -32,9 +32,6 @@ keep my desk free of non work-related things like bills and
 mail. I find those sorts of things distracting. I'll get to the mail later; for now, I'm
 working.</p>
 
-<center><div><img
-src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11254303_850487341672995_1905324248_n.jpg"/><p><i>A view of the yard, and a clean desk</i></p></div></center>
-
 <p>I recommend investing in a good pair of headphones or a headset. I use <a
 href="http://www.amazon.com/Sony-MDRV6-Studio-Monitor-Headphones/dp/B00001WRSJ">Sony MDRV6 Studio Monitor Headphones</a>. I find that listening to music through headphones helps me focus more than listening through external speakers. YMMV. Here are two playlists I listen to when hacking:</p>
 <ul>
@@ -46,9 +43,6 @@ href="https://open.spotify.com/user/speric/playlist/6DSBFarhDIkxfzIvZLbHYt">http
 
 <p>I like to switch up my work location. I work in my
 office 90% of the time, but sometimes I work in my living room, or at the local Starbucks, or even the pub!</p>
-
-<center><div><img
-src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/10707038_1514120335491692_639196564_n.jpg"/><p><i>Sometimes you need to put your feet up</i></p></div></center>
 
 <p>Switching up work locations like this keeps me from getting into a
 rut. Working remotely, I don't have face-to-face communication with
@@ -88,9 +82,6 @@ town on extended trips, we always drive on weekends or late at night, so
 that I can still work a full day/week. If I want to take a day off to
 do something fun with my family, I take it, but otherwise, it's a normal
 work day, sitting poolside notwithstanding.</p>
-
-<center><div><img
-src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xtp1/t51.2885-15/1538529_1475648599328884_225936597_n.jpg"/><p><i>My desk for one month last year, at my in-law's in Florida</i></p></div></center>
 
 <p>Additionally, I think it's important to have a routine when working
 remotely. Have a consistent general start time, and general end time. Take a real
