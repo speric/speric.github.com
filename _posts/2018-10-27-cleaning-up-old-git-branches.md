@@ -195,7 +195,7 @@ path+=(
 ```
 ([commit](https://github.com/speric/dotfiles/blob/5a2135c5fafb0dd783c1c81186b2f1e412897caf/zshrc#L14))
 
-Then, I moved the body of `clean_branches` to a file called [git-cleanup](https://github.com/speric/dotfiles/tree/master/bin):
+Then, I moved the body of `clean_branches` to a file called [git-cleanup](https://github.com/speric/dotfiles/tree/master/bin) in my dotfiles `bin` folder:
 
 ```zsh
 # !/bin/sh
