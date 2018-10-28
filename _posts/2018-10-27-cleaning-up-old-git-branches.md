@@ -193,7 +193,7 @@ path+=(
   ${HOME}/dev/dotfiles/bin
 )
 ```
-See the [https://github.com/speric/dotfiles/blob/5a2135c5fafb0dd783c1c81186b2f1e412897caf/zshrc#L14](commit)
+([commit](https://github.com/speric/dotfiles/blob/5a2135c5fafb0dd783c1c81186b2f1e412897caf/zshrc#L14))
 
 Then, I moved the body of `clean_branches` to a file called `git-cleanup`:
 
