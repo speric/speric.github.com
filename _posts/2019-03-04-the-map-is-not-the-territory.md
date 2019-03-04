@@ -11,14 +11,17 @@ applies to software development.
 One useful way to tackle the process of building software is to use tools that
 break down tasks and features into smaller tasks, often represented by "cards". Indeed, one
 valuable skill for programmers to developer is being able to break down a large task
-into smaller, discrete components. However, if we don't pay attention, those same tools can
+into smaller, discrete components.
+
+However, if we don't pay attention, those same tools can
 lull us into thinking of our application in terms of the smaller units those "cards" represent. We
 begin to mistake the map for the territory.
 
 In reality, an application is a system. Changes in one area can (and often do)
 have implications in seemingly unrelated parts of the system. This is true not only
-on the level of actual code, but in the capabilites an application affords. How many times have
-you come across a bug you were _sure_ wasn't related to a recent change, only to discover that
+on the level of actual code, but in the capabilites an application affords.
+
+How many times have you come across a bug you were _sure_ wasn't related to a recent change, only to discover that
 it was? Or implemented a new feature that gave users a new capability, only to realize that
 you inadvertently allowed users to put data in a state that another part of the app was not ready
 to handle?
