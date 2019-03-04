@@ -17,8 +17,8 @@ However, if we don't pay attention, those same tools can
 lull us into thinking of our application in terms of the smaller units those "cards" represent. We
 begin to mistake the map for the territory.
 
-In reality, an application is a system. Changes in one area can (and often do)
-have implications in seemingly unrelated parts of the system. This is true not only
+In reality, an application is a _system_. Changes in one area can (and often do)
+have implications in seemingly unrelated areas of the system. This is true not only
 on the level of actual code, but in the capabilites an application affords.
 
 How many times have you come across a bug you were _sure_ wasn't related to a recent change, only to discover that
