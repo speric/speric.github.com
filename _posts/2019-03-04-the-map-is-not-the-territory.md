@@ -10,7 +10,7 @@ applies to software development.
 
 One useful way to tackle the process of building software is to use tools that
 break down tasks and features into smaller tasks, often represented by "cards". Indeed, one
-valuable skill for programmers to developer is being able to break down a large task
+valuable skill for programmers to develop is being able to break down a large task
 into smaller, discrete components.
 
 However, if we don't pay attention, those same tools can
