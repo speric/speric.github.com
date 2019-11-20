@@ -6,7 +6,7 @@ title: Pipe Fabrication with QuickPen 3D and CSVs
 
 <p>My full-time job is as a mechanical draftsman for an HVAC contractor.  Our work is mostly in high-end residential apartment buildings and hotels in the 5 boroughs of New York City.  We build steam and water-based HVAC systems (sometimes both in the same building).  At work, we use <a href="http://www.quickpen.com/index.php/Products/PipeDesigner-3D-Overview.html">QuickPen Pipe Designer 3D</a>, on top of AutoCAD, to draw 3D models of our mechanical piping.</p>
 
-<center><div><img src="/assets/images/prv.png" class="img-polaroid"/><p><i>A PRV station</i></p></center>
+<center><div><img src="/assets/images/prv.png" class="img-polaroid"/><p><i>A PRV station</i></p></div></center>
 
 <h3>Coordination</h3>
 <p>To get pipe to the field, the draftsmen first take the contract drawings from the architect and engineer, and we draw our pipe on the floor layout.  We then attend coordination meetings, where all trades (plumbers, electricians, sheetmetal, etc.) work on a set of drawings that has everyone's "stuff" on them.  This lets us resolve conflicts and hits.  Pipe moves around, duct gets raised or lowered, and so on.  When all trades sign off on the drawing for a particular floor, the draftsmen are then free to go back to their offices, update their own shop drawings, and work on fabricating their pipe.  The adoption of <a href="http://usa.autodesk.com/building-information-modeling/">BIM</a> and related software stacks promises to make/has made some of these steps unncessary, but many jobs are still coordinated like this.</p>
@@ -109,7 +109,7 @@ iso_pieces = fabrication_pieces_as_array.group_by{|row| row[ISO_NUMBER]}
 <p>
 {% highlight ruby %}
 fabrication_pieces_as_array.each do |x|
-  if iso_pieces[x[ISO_NUMBER]].size == 2 and !x[LENGTH].blank? 
+  if iso_pieces[x[ISO_NUMBER]].size == 2 and !x[LENGTH].blank?
     x[DESCRIPTION] = iso_pieces[x[ISO_NUMBER]].select{ |y| y[LENGTH].blank? }.first[DESCRIPTION]
   end
 end
@@ -124,7 +124,7 @@ fabrication_pieces_as_array.delete_if {|x| x[LENGTH].blank? and iso_pieces[x[ISO
 {% endhighlight %}
 </p>
 
-<p>Lastly, I generate a new CSV with all the pieces and their make-up fittings.  Pieces that have more > 2 components are also listed, but they have not been "combined" together, so I'll resolve them manually. At the bottom of the CSV I also generate a bill of materials, which is a count of each fitting, so the shop knows how many of each to order from the supply house. Ruby's <code>group_by</code> gets all the distinct pieces into a hash, and then it's as simple as getting the <code>size</code> of each key.</p> 
+<p>Lastly, I generate a new CSV with all the pieces and their make-up fittings.  Pieces that have more > 2 components are also listed, but they have not been "combined" together, so I'll resolve them manually. At the bottom of the CSV I also generate a bill of materials, which is a count of each fitting, so the shop knows how many of each to order from the supply house. Ruby's <code>group_by</code> gets all the distinct pieces into a hash, and then it's as simple as getting the <code>size</code> of each key.</p>
 
 <p>
 {% highlight ruby %}
