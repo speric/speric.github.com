@@ -6,7 +6,12 @@ title: Pipe Fabrication with QuickPen 3D and CSVs
 
 <p>My full-time job is as a mechanical draftsman for an HVAC contractor.  Our work is mostly in high-end residential apartment buildings and hotels in the 5 boroughs of New York City.  We build steam and water-based HVAC systems (sometimes both in the same building).  At work, we use <a href="http://www.quickpen.com/index.php/Products/PipeDesigner-3D-Overview.html">QuickPen Pipe Designer 3D</a>, on top of AutoCAD, to draw 3D models of our mechanical piping.</p>
 
-<center><div><img src="/assets/images/prv.png" class="img-polaroid"/><p><i>A PRV station</i></p></div></center>
+<center>
+  <div>
+    <img src="/assets/images/prv.png" class="img-polaroid"/>
+    <p><i>A PRV station</i></p>
+  </div>
+</center>
 
 <h3>Coordination</h3>
 <p>To get pipe to the field, the draftsmen first take the contract drawings from the architect and engineer, and we draw our pipe on the floor layout.  We then attend coordination meetings, where all trades (plumbers, electricians, sheetmetal, etc.) work on a set of drawings that has everyone's "stuff" on them.  This lets us resolve conflicts and hits.  Pipe moves around, duct gets raised or lowered, and so on.  When all trades sign off on the drawing for a particular floor, the draftsmen are then free to go back to their offices, update their own shop drawings, and work on fabricating their pipe.  The adoption of <a href="http://usa.autodesk.com/building-information-modeling/">BIM</a> and related software stacks promises to make/has made some of these steps unncessary, but many jobs are still coordinated like this.</p>
@@ -14,11 +19,21 @@ title: Pipe Fabrication with QuickPen 3D and CSVs
 <h3>Fabrication</h3>
 <p>The next goal for the draftsman is to hand the fitters in the shop what are called "fabrication sheets", or "cut sheets", that detail what needs to be fabricated, and what tag that piece should be given.</p>
 
-<center><div><img src="/assets/images/cut-sheets.png" class="img-polaroid"/><p><i>Fabrication pieces</i></p></center>
+<center>
+  <div>
+    <img src="/assets/images/cut-sheets.png" class="img-polaroid"/>
+    <p><i>Fabrication pieces</i></p>
+  </div>
+</center>
 
 <p>In the above image, <code>R-03</code> is the tag number given to a piece of pipe that is 1-1/2" in diameter, 9'-6-1/4" long, and has a 1-1/2"x3/4" tee on one end.  We only want one of these pieces tagged R-03.  A fitting on the end of a piece like this is called a "make-up fitting". Usually, threaded pipe like this only has one make-up fitting. The other end of the pipe is a threaded end, and the fitters put these pieces together to construct all the piping on a given floor. We send "shop drawings" to the field that detail how these pieces fit together:</p>
 
-<center><div><img src="/assets/images/balloon-dwg.png" class="img-polaroid"/><p><i>Shop drawing with pipes tagged</i></p></center>
+<center>
+  <div>
+    <img src="/assets/images/balloon-dwg.png" class="img-polaroid"/>
+      <p><i>Shop drawing with pipes tagged</i></p>
+  </div>
+</center>
 
 <p>QuickPen makes it (almost) easy to do all this.  I draw my pipe in 3D, at real elevations. I then use QuickPen's ISO manager to create my fabrication pieces by literally clicking on a piece of pipe, and it's make-up fitting.  QuickPen auto-increments the counter as I create pieces.</p>
 
