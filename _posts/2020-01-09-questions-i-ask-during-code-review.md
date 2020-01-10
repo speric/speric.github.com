@@ -8,7 +8,7 @@ description: "What are some questions to ask when doing code review?"
 _The following is adapted from an internal writeup I did for my team on the topic of
 code review. It has been shaped by my experience as a developer and engineering
 manager in the particular technical, social, and business contexts of my career. A year ago,
-this document would have looked different. A year from now, it will hopefully look a
+this document would have looked different. A year from now, it will hopefully look
 different too. While I think some of these points are applicable in all contexts, I
 make no claim that this is how everyone should do code review._
 
