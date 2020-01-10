@@ -3,6 +3,7 @@ layout: post
 title: "Questions I Ask During Code Review"
 header_img: "code-review.jpg"
 description: "What are some questions to ask when doing code review?"
+hn: "https://news.ycombinator.com/item?id=22011542"
 ---
 
 _The following is adapted from an internal writeup I did for my team on the topic of
