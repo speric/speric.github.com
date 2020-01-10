@@ -3,7 +3,7 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>A Hack On The Good Life</title>
+ <title>Dispatches - Eric Farkas</title>
  <link href="http://ericfarkas.com/atom.xml" rel="self"/>
  <link href="http://ericfarkas.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -11,7 +11,7 @@ layout: nil
  <author>
    <name>Eric Farkas</name>
  </author>
- 
+
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>
