@@ -4,15 +4,17 @@ layout: layout
 <div class="post">
   <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
   {{ page.date | date: "%B %e, %Y" }}
-  <br/>  
+  <br/>
   <div class="row-fluid" style="margin-top:10px;">
     <div class="span12">
       {{ content }}
-      
+
       {% if page.hn %}
-      <p>
-        You can discuss this post at <a href="{{ page.hn }}">Hacker News</a>.
-      </p>
+        <br/>
+
+        <p>
+          You can discuss this post at <a href="{{ page.hn }}">Hacker News</a>.
+        </p>
       {% endif %}
     </div>
   </div>
