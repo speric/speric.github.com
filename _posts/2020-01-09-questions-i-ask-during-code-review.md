@@ -127,3 +127,6 @@ Some Rails-specific things to look out for in code review:
 * Not using `find_each` when iterating over collections of unknown size.
 
 * Not scoping queries. There are cases where it's OK to do this, but they are rare.
+
+### Further Reading
+* [How To Do Code Reviews](https://www.notion.so/How-to-do-Code-Reviews-1c33cbf7597a4d61aeb3905b86844baf)
