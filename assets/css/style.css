@@ -1,6 +1,6 @@
 body {
   padding-bottom: 40px;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #EEEEEE;
   font-family: "Roboto", serif;
 }
@@ -38,8 +38,8 @@ body {
 }
 
 p {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 h2 {
