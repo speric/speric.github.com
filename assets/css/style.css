@@ -12,11 +12,9 @@ body {
 
 .jumbotron h1 {
   margin-bottom: 9px;
-  font-size: 40px;
-  font-weight: bold;
-  letter-spacing: -1px;
+  font-size: 32px;
   line-height: 1;
-  font-family: "Brawler", serif;
+  font-family: "Roboto", serif;
 }
 
 .jumbotron a {
@@ -33,18 +31,18 @@ body {
 }
 
 .post h1 {
-  font-family: "Brawler", serif;
+  font-family: "Roboto", serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
   font-size: 20px;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 h2 {
-  font-family: "Brawler", serif;
+  font-family: "Roboto", serif;
   margin: 0;
   padding-bottom: 6px;
   -webkit-font-smoothing: antialiased;
