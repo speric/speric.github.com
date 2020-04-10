@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   background-color: #EEEEEE;
   font-family: "Roboto", serif;
-  color: #333333;
+  color: #4C4C4C;
 }
 
 .jumbotron {
@@ -11,9 +11,7 @@ body {
 }
 
 .jumbotron h1 {
-  margin-bottom: 9px;
   font-size: 32px;
-  line-height: 1;
   font-family: "Roboto", serif;
 }
 
@@ -39,6 +37,15 @@ body {
 p {
   font-size: 20px;
   line-height: 32px;
+  margin-bottom: 30px;
+}
+
+#books p {
+ margin-bottom: 8px;
+}
+
+.post-links p {
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -96,3 +103,4 @@ blockquote {
 div.post {
   padding-top: 10px;
 }
+
