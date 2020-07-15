@@ -30,9 +30,9 @@ the better decisions they will make.
 
 What shouldn't you share by default?
 
-* Individual matters, shared in private. This includes things shared  with you by someone, or shared with you about someone.
+* Individual matters, shared in private. This includes things shared  with you by someone, or shared with you _about_ someone.
 
-* Assume anything shared in a 1:1 is "share with permission". If you learn something in a 1:1 that you think another person would should hear, always ask "Do you mind if I share that?" In my experience, most of the time the answer is yes, but never assume.
+* Assume anything shared in a 1:1 is "share with permission". If you learn something in a 1:1 that you think another person should hear, always ask "Do you mind if I share that?" In my experience, most of the time the answer is yes, but never assume.
 
 A bias for "share by default" doesn't you will wind up sharing everything
 in public. It only means that you're looking for reasons _to not_ share
