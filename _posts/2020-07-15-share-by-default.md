@@ -40,18 +40,19 @@ information. This is as opposed to looking for explicit reasons _to_ share infor
 because you, in your limited wisdom, can't come up with a reason to share
 information, doesn't mean a good reason does not exist.
 
+In the absence of a compelling reason to keep information to yourself, you should share it, even if you're not sure other people need to know it.
+
 ### Lightbulb Moment
 
 I learned this lesson some time ago when I was in a meeting with leaders from
 other departments. An executive spoke about how we'd market the feature
-my team was working with features two other teams built as a package
-aimed at a segment of target customers. I gathered that most of the others
-in the room knew about this marketing effort, but it was the first time I
+my team was working on with features two other teams built, as a package
+aimed at a segment of target customers. I gathered that many in the room knew about this marketing effort, but it was the first time I
 had heard of it. I realized that if I didn't have this context, my
 team didn't either.
 
 At our next standup I said something like, "I was in a meeting yesterday
-where I heard the feature we were working on will be marketed together
+where I heard the feature we're working on will be marketed together
 with these other features. Here's how the rest of the company is
 viewing our work. Thought you'd all like to know."
 
@@ -62,7 +63,7 @@ teams were depending on our work in a way that we hadn't before.
 
 Since that meeting, as a manager I have become more aggressive in
 seeking out information and context. The goal is to then share it
-with my team. When in discussions with a PM about a feature, I will
+with my team. For example, when in discussions with a PM about a feature, I will
 often say, "There should be nothing you know about this feature, that
 we don't. Give us everything."
 
