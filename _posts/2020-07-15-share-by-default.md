@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sharing Information"
+title: "Share by Default"
 header_img: "donuts.jpg"
 description: "Why technical leaders should have a bias for sharing information."
 ---
