@@ -47,7 +47,7 @@ In the absence of a compelling reason to keep information to yourself, you shoul
 I learned this lesson some time ago when I was in a meeting with leaders from
 other departments. An executive spoke about how we'd market the feature
 my team was working on with features two other teams built, as a package
-aimed at a segment of target customers. I gathered that many in the room knew about this marketing effort, but it was the first time I
+aimed at a segment of target customers. I gathered that many in the room had known about this marketing effort for weeks, but it was the first time I
 had heard of it. I realized that if I didn't have this context, my
 team didn't either.
 
