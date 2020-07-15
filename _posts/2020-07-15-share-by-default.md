@@ -34,7 +34,7 @@ What shouldn't you share by default?
 
 * Assume anything shared in a 1:1 is "share with permission". If you learn something in a 1:1 that you think another person should hear, always ask "Do you mind if I share that?" In my experience, most of the time the answer is yes, but never assume.
 
-A bias for "share by default" doesn't you will wind up sharing everything
+A bias for "share by default" doesn't mean you will wind up sharing everything
 in public. It only means that you're looking for reasons _to not_ share
 information. This is as opposed to looking for explicit reasons _to_ share information. Just
 because you, in your limited wisdom, can't come up with a reason to share
