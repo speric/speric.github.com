@@ -6,8 +6,7 @@ title: "Book Quotes - Becoming a Technical Leader: An Organic Problem-Solving Ap
 <h2>
   <a
     href="https://www.amazon.com/Becoming-Technical-Leader-Problem-Solving-Approach/dp/0932633021"
-  >Becoming a Technical Leader: An Organic Problem-Solving Approach </a> by Gerald
-  >Weinberg
+  >Becoming a Technical Leader: An Organic Problem-Solving Approach </a> by Gerald Weinberg
 </h2>
 
 <br/>
